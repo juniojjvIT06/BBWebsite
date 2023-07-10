@@ -153,6 +153,9 @@ class Interactive_Circle extends Widget_Base {
 				'type'    => Controls_Manager::TEXT,
 				'default' => esc_html__( 'Title', 'essential-addons-for-elementor-lite' ),
 				'dynamic' => [ 'active' => true ],
+				'ai' => [
+					'active' => false,
+				],
 			]
 		);
 
@@ -184,6 +187,16 @@ class Interactive_Circle extends Widget_Base {
 				'selector' => '{{WRAPPER}} .eael-circle-wrapper:not(.eael-interactive-circle-preset-4) .eael-circle-info .eael-circle-inner {{CURRENT_ITEM}} .eael-circle-btn-icon, {{WRAPPER}} .eael-circle-wrapper.eael-interactive-circle-preset-4 .eael-circle-info .eael-circle-inner {{CURRENT_ITEM}} .eael-circle-icon-shapes',
 			]
 		);
+
+		$repeater->add_control( 'eael_interactive_circle_tab_bgtype_classic_notice', [
+			'type'            => Controls_Manager::RAW_HTML,
+			'raw'             => __( 'Reload needed on first change', 'essential-addons-for-elementor-lite' ),
+			'content_classes' => 'elementor-panel-alert elementor-panel-alert-info',
+			'condition' => [
+				'eael_interactive_circle_tab_bgtype_background' => 'classic',
+				'eael_interactive_circle_tab_bgtype_color'      => '',
+			],
+		] );
 
 		$repeater->end_controls_tab();
 		$repeater->end_controls_tabs();
@@ -813,15 +826,16 @@ class Interactive_Circle extends Widget_Base {
                     <div class="eael-circle-info" data-items="<?php echo $item_count; ?>">
                         <div class="eael-circle-inner">
 							<?php foreach ( $settings['eael_interactive_circle_item'] as $index => $item ) :
+								$item_style_classic = ! empty( $item['eael_interactive_circle_tab_bgtype_background'] ) && 'classic' === $item['eael_interactive_circle_tab_bgtype_background'] ? 'classic' : '';
 								$item_count = $index + 1;
 								?>
                                 <div class="eael-circle-item elementor-repeater-item-<?php echo $item['_id']; ?>">
                                     <div class="eael-circle-btn" id="eael-circle-item-<?php echo $item_count; ?>">
-                                        <div class="eael-circle-icon-shapes">
+                                        <div class="eael-circle-icon-shapes <?php echo esc_attr( $item_style_classic ); ?>">
                                             <div class="eael-shape-1"></div>
                                             <div class="eael-shape-2"></div>
                                         </div>
-                                        <div class="eael-circle-btn-icon">
+                                        <div class="eael-circle-btn-icon <?php echo esc_attr( $item_style_classic ); ?>">
                                             <div class="eael-circle-icon-inner">
 												<?php
 												if ( $show_btn_icon ) {

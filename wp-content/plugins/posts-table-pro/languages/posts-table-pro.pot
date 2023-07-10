@@ -1,0 +1,970 @@
+# Copyright (C) 2023 Barn2 Plugins
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts Table Pro 3.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/posts-table-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-04T20:01:06+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: posts-table-pro\n"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Settings_Page.php:72
+msgid "Posts Table Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://barn2.com/wordpress-plugins/posts-table-pro/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display any WordPress content in an instant data table with powerful search, sort and filter capabilities."
+msgstr ""
+
+#. Author of the plugin
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://barn2.com"
+msgstr ""
+
+#: includes/Admin/Page_List.php:44
+msgid "Posts Table Pro Search Page"
+msgstr ""
+
+#: includes/Admin/Plugin_Setup.php:74
+msgctxt "Page slug"
+msgid "posts-search"
+msgstr ""
+
+#: includes/Admin/Plugin_Setup.php:76
+msgctxt "Page title"
+msgid "Search"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:59
+#: includes/Admin/Settings_Page.php:81
+msgid "Posts Table Pro Settings"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:60
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:84
+msgid "Use the following options to configure the default settings for your tables. Most of these can be overridden in <a href=\"%s\">each individual table</a>. There are also <a href=\"%s\">shortcode options</a> if you need even more flexibility."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:98
+msgid "Save Changes"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:156
+msgid "Table content"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:165
+msgid "Loading"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:174
+msgid "Sorting"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:183
+msgid "Search and filter"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:192
+msgid "Pagination"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:201
+#: includes/Admin/Settings_Page.php:529
+msgid "Design"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:210
+msgid "Advanced"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:224
+msgid "Post type"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:227
+msgid "To restrict the post type by custom field, taxonomy, categories, tags, etc. add the relevant %1$sshortcode option%2$s."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:236
+msgid "Columns"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:238
+msgid "Enter the columns for your posts tables."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:243
+msgid "Content length"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:246
+#: includes/Admin/Settings_Page.php:258
+msgid "words"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:247
+msgid "Enter -1 to show the full post content."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:255
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:259
+msgid "Enter -1 to show the full excerpt."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:267
+msgid "Post links"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:269
+msgid "Include links to the post, author, category, tag and term pages."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:274
+msgid "Image size"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:276
+msgid "Enter a size in pixels, e.g. 70x50, or a standard image size such as 'thumbnail'"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:284
+#: includes/Admin/Table_Generator_Extras.php:49
+msgid "Button text"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:286
+msgid "If your table uses the 'button' column."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:298
+msgid "Lazy load"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:301
+msgid "Load posts one page at a time"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:302
+msgid "Enable this if you have many posts or experience slow page load times."
+msgstr ""
+
+#. translators: 1: link to help article, 2: end of help link
+#: includes/Admin/Settings_Page.php:305
+msgid "Warning: Lazy load has %1$ssome limitations%2$s &mdash; it limits the search, sorting and dropdown filters."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:317
+msgid "Post limit"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:320
+msgid "The maximum number of posts in one table."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:321
+msgid " Enter -1 to show all posts."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:333
+msgid "How users search and filter posts in the table."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:339
+msgid "Search filters"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:343
+msgid "Disabled"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:344
+msgid "Show based on columns in table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:345
+#: includes/Admin/Settings_Page.php:533
+msgid "Custom"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:347
+msgid "Dropdown lists to filter the table by category, tag, or custom taxonomy."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:356
+msgid "Custom filters"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:359
+msgid "Enter the filters as a comma-separated list."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:360
+msgid "E.g. categories,tax:location"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:365
+#: includes/Admin/Table_Generator_Extras.php:30
+msgid "Search box"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:369
+#: includes/Admin/Settings_Page.php:381
+#: includes/Admin/Settings_Page.php:485
+#: includes/Admin/Settings_Page.php:498
+#: includes/Admin/Table_Generator_Extras.php:34
+msgid "Above table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:370
+#: includes/Admin/Settings_Page.php:382
+#: includes/Admin/Settings_Page.php:486
+#: includes/Admin/Settings_Page.php:499
+#: includes/Admin/Table_Generator_Extras.php:35
+msgid "Below table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:371
+#: includes/Admin/Settings_Page.php:383
+#: includes/Admin/Settings_Page.php:487
+#: includes/Admin/Settings_Page.php:500
+#: includes/Admin/Table_Generator_Extras.php:36
+msgid "Above and below table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:372
+#: includes/Admin/Settings_Page.php:384
+#: includes/Admin/Settings_Page.php:488
+#: includes/Admin/Settings_Page.php:501
+#: includes/Admin/Table_Generator_Extras.php:37
+msgid "Hidden"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:377
+msgid "Post totals"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:389
+msgid "Reset search"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:392
+msgid "Show a link to reset the search"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:397
+msgid "Search page"
+msgstr ""
+
+#. translators: 1: link to search article, 2: end of link
+#: includes/Admin/Settings_Page.php:401
+msgid "When using the %1$sglobal search%2$s, this page will display your search results."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:405
+msgid "Use the widget or shortcode to perform a search from anywhere on your site."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:413
+msgid "How to sort posts when the table is first loaded."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:419
+msgid "Sort by"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:423
+#: includes/Util/Columns_Util.php:38
+msgid "Title"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:424
+#: includes/Util/Columns_Util.php:34
+msgid "ID"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:425
+msgid "Date published"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:426
+msgid "Date modified"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:427
+msgid "Page order (menu order)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:428
+msgid "Post slug"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:429
+#: includes/Util/Columns_Util.php:58
+msgid "Author"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:430
+msgid "Number of comments"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:431
+msgid "Random"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:432
+msgid "Other"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:442
+msgid "Sort column"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:447
+msgid "Enter any column in your table. Only supported when lazy load is disabled."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:450
+msgid "Sort direction"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:454
+msgid "Automatic"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:455
+msgid "Ascending (A to Z, old to new)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:456
+msgid "Descending (Z to A, new to old)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:464
+msgid "How to paginate posts when there are multiple pages of results."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:470
+msgid "Posts per page"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:473
+msgid "The number of posts per page of results."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:474
+msgid "Enter -1 to show all posts on one page."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:481
+msgid "Posts per page selector"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:490
+msgid "Allows users to adjust the number of posts per page of results."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:494
+msgid "Pagination buttons"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:506
+msgid "Pagination type"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:510
+msgid "Page numbers"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:511
+msgid "Prev - Next"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:512
+msgid "Prev - Page numbers - Next"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:513
+msgid "First - Prev - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:514
+msgid "First - Prev - Page numbers - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:522
+msgid "Customize the design of the table."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:532
+msgid "Default"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:543
+msgid "Borders"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:546
+msgid "External border"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:546
+msgid "External"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:547
+#: includes/Admin/Settings_Page.php:556
+#: includes/Admin/Settings_Page.php:565
+msgid "Width"
+msgstr ""
+
+#. translators: 'Header' in this context refers to the headings in the table.
+#: includes/Admin/Settings_Page.php:555
+msgid "Header border"
+msgstr ""
+
+#. translators: 'Header' in this context refers to the headings in the table.
+#: includes/Admin/Settings_Page.php:555
+msgid "Header"
+msgstr ""
+
+#. translators: 'Body' in this context refers to the main table content.
+#: includes/Admin/Settings_Page.php:564
+msgid "Body border"
+msgstr ""
+
+#. translators: 'Body' in this context refers to the main table content.
+#: includes/Admin/Settings_Page.php:564
+msgid "Body"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:570
+msgid "Header background color"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:576
+msgid "Header text"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:586
+msgid "Body background color"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:592
+msgid "Alternating background color"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:598
+msgid "Body text"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:608
+msgid "Spacing"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:612
+msgid "Theme default"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:613
+msgid "Compact"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:614
+msgid "Normal"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:615
+msgid "Spacious"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:626
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:629
+msgid "Show shortcodes, HTML and other formatting in the table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:634
+msgid "Image lightbox"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:636
+msgid "Show featured images in a lightbox"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:640
+#: includes/Admin/Table_Generator_Extras.php:43
+msgid "Caching"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:643
+msgid "Cache table contents to improve load times"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:651
+msgid "Cache expiration"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:654
+msgid "hours"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:655
+msgid "Your data will be refreshed after this length of time."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:833
+#: lib/Admin/Settings_Util.php:68
+msgid "Documentation"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:834
+#: lib/Admin/Settings_Util.php:73
+msgid "Support"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:838
+msgid "Setup wizard"
+msgstr ""
+
+#: includes/Admin/Table_Generator.php:107
+msgid "Welcome to %s"
+msgstr ""
+
+#: includes/Admin/Table_Generator.php:108
+msgid "Create and display beautiful tables of your website content."
+msgstr ""
+
+#: includes/Admin/Table_Generator.php:110
+msgid "Create and manage your post tables on this page. Display them using the Post Table block or shortcode."
+msgstr ""
+
+#: includes/Admin/Table_Generator.php:136
+msgid "Select a pre-saved posts table. Go to the <a href=\"%s\" target=\"_blank\">Post Tables section</a> of the Dashboard to create or edit your tables."
+msgstr ""
+
+#: includes/Admin/Table_Generator.php:140
+msgid "An interactive table of your posts, pages, or any custom post type."
+msgstr ""
+
+#: includes/Admin/Table_Generator_Extras.php:19
+msgid "%s per page"
+msgstr ""
+
+#: includes/Admin/Table_Generator_Extras.php:24
+msgid "%s limit"
+msgstr ""
+
+#: includes/Admin/Table_Generator_Extras.php:25
+msgid "The maximum number of %contentType% in one table."
+msgstr ""
+
+#: includes/Admin/Table_Generator_Extras.php:44
+msgid "Cache table contents to improve load times."
+msgstr ""
+
+#: includes/Admin/Table_Generator_Extras.php:50
+msgid "If your table uses the \"button\" column. <a href=\"%s\" target=\"_blank\">Read more</a>"
+msgstr ""
+
+#: includes/Config_Builder.php:70
+msgctxt "show all posts option"
+msgid "All"
+msgstr ""
+
+#: includes/Data/Post_Custom_Field.php:126
+msgid "True"
+msgstr ""
+
+#: includes/Data/Post_Custom_Field.php:126
+msgid "False"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:104
+msgid "(_MAX_ in total)"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:105
+msgid "Show _MENU_ per page"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:106
+msgid "Search:"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:108
+msgid "First"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:109
+msgid "Last"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:110
+msgid "Next"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:111
+msgid "Previous"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:113
+msgctxt "thousands separator"
+msgid ","
+msgstr ""
+
+#: includes/Frontend_Scripts.php:114
+msgctxt "decimal mark"
+msgid "."
+msgstr ""
+
+#. translators: ARIA text for sorting column in ascending order
+#: includes/Frontend_Scripts.php:117
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#. translators: ARIA text for sorting column in descending order
+#: includes/Frontend_Scripts.php:119
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: includes/Frontend_Scripts.php:122
+msgid "Reset"
+msgstr ""
+
+#: includes/Search_Handler.php:68
+#: includes/Search_Shortcode.php:49
+#: includes/Search_Widget.php:56
+msgid "Search posts..."
+msgstr ""
+
+#: includes/Search_Handler.php:68
+#: includes/Search_Handler.php:141
+#: includes/Search_Shortcode.php:50
+#: includes/Search_Widget.php:57
+msgid "Search"
+msgstr ""
+
+#: includes/Search_Handler.php:82
+msgid "No matching results for your search term."
+msgstr ""
+
+#: includes/Search_Widget.php:20
+msgid "A global search box for your posts table."
+msgstr ""
+
+#: includes/Search_Widget.php:23
+msgid "Posts Table Pro: Search Box"
+msgstr ""
+
+#: includes/Search_Widget.php:55
+msgid "Posts search"
+msgstr ""
+
+#: includes/Search_Widget.php:62
+msgid "Title:"
+msgstr ""
+
+#: includes/Search_Widget.php:66
+msgid "Placeholder:"
+msgstr ""
+
+#: includes/Search_Widget.php:70
+msgid "Button Text:"
+msgstr ""
+
+#: includes/Util/Columns_Util.php:42
+msgid "Content"
+msgstr ""
+
+#: includes/Util/Columns_Util.php:46
+msgid "Summary"
+msgstr ""
+
+#: includes/Util/Columns_Util.php:50
+msgid "Date"
+msgstr ""
+
+#: includes/Util/Columns_Util.php:54
+msgid "Last Modified"
+msgstr ""
+
+#: includes/Util/Columns_Util.php:62
+msgid "Categories"
+msgstr ""
+
+#: includes/Util/Columns_Util.php:66
+msgid "Tags"
+msgstr ""
+
+#: includes/Util/Columns_Util.php:70
+msgid "Status"
+msgstr ""
+
+#: includes/Util/Columns_Util.php:74
+msgid "Image"
+msgstr ""
+
+#: includes/Util/Util.php:494
+msgctxt "table results count (single)"
+msgid "result"
+msgstr ""
+
+#: includes/Util/Util.php:495
+msgctxt "table results count (multiple)"
+msgid "results"
+msgstr ""
+
+#: includes/Util/Util.php:507
+msgctxt "table attachment count (single)"
+msgid "file"
+msgstr ""
+
+#: includes/Util/Util.php:508
+msgctxt "table attachment count (multiple)"
+msgid "files"
+msgstr ""
+
+#. translators: _TOTAL_: the total number of posts; _POSTS_: the content type (e.g. "posts")
+#: includes/Util/Util.php:521
+msgid "_TOTAL_ _POSTS_"
+msgstr ""
+
+#. translators: _POSTS_: the content type (e.g. "posts")
+#: includes/Util/Util.php:523
+msgid "0 _POSTS_"
+msgstr ""
+
+#. translators: _POSTS_: the content type (e.g. "posts")
+#: includes/Util/Util.php:525
+#: includes/Util/Util.php:527
+msgid "No matching _POSTS_."
+msgstr ""
+
+#: includes/Util/Util.php:558
+msgid "— Select —"
+msgstr ""
+
+#: lib/Admin/Settings_API_Helper.php:478
+msgid "Size"
+msgstr ""
+
+#. translators: %s: The plugin name
+#: lib/Plugin/Admin/Admin_Links.php:72
+msgid "View %s documentation"
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:73
+msgid "Docs"
+msgstr ""
+
+#. translators: 1: licence key link start, 2: license key link end
+#: lib/Plugin/Admin/Plugin_Updater.php:180
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: lib/Plugin/Admin/Plugin_Updater.php:253
+msgid "Auto-updates unavailable."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:65
+msgid "License key successfully activated."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "There was an error activating your license key."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:74
+msgid "License key successfully deactivated."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:75
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:82
+msgid "The license key looks good!"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:83
+msgid "There's a problem with your license key."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:138
+msgid "License key"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:146
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:149
+msgid "License Key"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:175
+msgid "Check"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:176
+msgid "Activate"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:177
+msgid "Deactivate"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:188
+msgid "License key deactivated."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: lib/Plugin/License/Admin/License_Notices.php:93
+msgid "Thank you for installing %1$s. To get started, please %2$senter your license key%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: lib/Plugin/License/Admin/License_Notices.php:114
+msgid "Your license key for %1$s has expired. %2$sClick here to renew for 20%% discount%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: lib/Plugin/License/Admin/License_Notices.php:135
+msgid "You no longer have a valid license for %1$s. Please %2$spurchase a new license key%3$s to continue using the plugin."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: lib/Plugin/License/Admin/License_Notices.php:160
+msgid "%1$s - your site has moved to a new domain. Please %2$sreactivate your license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/EDD_Licensing.php:184
+msgid "An error has occurred, please try again."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:92
+msgid "Your license key is active."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:112
+msgid "Please enter your license key."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:114
+#: lib/Plugin/License/Plugin_License.php:383
+msgid "Your license key is invalid."
+msgstr ""
+
+#. translators: 1: account page link start, 2: account page link end
+#: lib/Plugin/License/Plugin_License.php:320
+msgid "Invalid license key - please check your order confirmation email or %1$sAccount%2$s."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:326
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:329
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:332
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:336
+msgid "Your license key is not valid for this plugin."
+msgstr ""
+
+#. translators: %s: The number of sites the license is activated on
+#: lib/Plugin/License/Plugin_License.php:343
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: The sites active description, e.g. '2 sites active'
+#: lib/Plugin/License/Plugin_License.php:347
+msgid "Your license key has reached its activation limit (%s)."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:348
+#: lib/Util.php:33
+msgid "Read more"
+msgstr ""
+
+#. translators: support for RTL, 1: the license error, 2: a link
+#: lib/Plugin/License/Plugin_License.php:351
+#: lib/Plugin/License/Plugin_License.php:372
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %s: The license expiry date
+#: lib/Plugin/License/Plugin_License.php:365
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:369
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:624
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:628
+msgid "Your license key has expired."
+msgstr ""
+
+#. translators: 1: purchase link start, 2: purchase link end.
+#: lib/Plugin/License/Plugin_License.php:634
+msgid "Your license key has been disabled. Please %1$spurchase a new license key%2$s to continue using the plugin."
+msgstr ""
+
+#: templates/photoswipe.php:47
+msgid "Close (Esc)"
+msgstr ""
+
+#: templates/photoswipe.php:49
+msgid "Share"
+msgstr ""
+
+#: templates/photoswipe.php:51
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: templates/photoswipe.php:53
+msgid "Zoom in/out"
+msgstr ""
+
+#: templates/photoswipe.php:70
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: templates/photoswipe.php:72
+msgid "Next (arrow right)"
+msgstr ""

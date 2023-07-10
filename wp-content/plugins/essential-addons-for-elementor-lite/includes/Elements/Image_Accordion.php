@@ -188,6 +188,9 @@ class Image_Accordion extends Widget_Base {
                 'default'     => [
                     'url' => EAEL_PLUGIN_URL . '/assets/front-end/img/accordion.png',
                 ],
+                'ai' => [
+                    'active' => false,
+                ],
             ]
         );
 
@@ -199,6 +202,9 @@ class Image_Accordion extends Widget_Base {
                 'label_block' => true,
                 'default'     => esc_html__( 'Accordion item title', 'essential-addons-for-elementor-lite' ),
                 'dynamic'     => [ 'active' => true ],
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
 
@@ -308,6 +314,9 @@ class Image_Accordion extends Widget_Base {
                 'selectors'   => [
                     '{{WRAPPER}} .eael-img-accordion ' => 'height: {{VALUE}}px;',
                 ],
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
 
@@ -583,11 +592,12 @@ class Image_Accordion extends Widget_Base {
                     $attributes = str_replace(",",'" ',$attributes);
                     $attributes .='"';
                 }
-                $active              = $img_accordion[ 'eael_accordion_is_active' ];
                 $this->add_render_attribute( 'eael-image-accordion-link-' . $key, 'href', esc_url( $eael_accordion_link ));
                 
                 $tag = 'a';
             }
+
+            $active              = $img_accordion[ 'eael_accordion_is_active' ];
             $activeCSS           = ( $active === 'yes' ? ' flex: 3 1 0%;' : '' );
             $this->add_render_attribute(
                 'eael-image-accordion-link-' . $key,

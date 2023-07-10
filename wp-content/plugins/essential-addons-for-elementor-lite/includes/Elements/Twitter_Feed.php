@@ -94,6 +94,9 @@ class Twitter_Feed extends Widget_Base
                 'default' => '@wpdevteam',
                 'label_block' => false,
                 'description' => esc_html__('Use @ sign with your account name.', 'essential-addons-for-elementor-lite'),
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
 
@@ -105,6 +108,9 @@ class Twitter_Feed extends Widget_Base
                 'dynamic'     => [ 'active' => true ],
                 'label_block' => false,
                 'description' => esc_html__('Remove # sign from your hashtag name.', 'essential-addons-for-elementor-lite'),
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
 
@@ -114,8 +120,11 @@ class Twitter_Feed extends Widget_Base
                 'label' => esc_html__('Consumer Key', 'essential-addons-for-elementor-lite'),
                 'type' => Controls_Manager::TEXT,
                 'label_block' => false,
-                'default' => 'wwC72W809xRKd9ySwUzXzjkmS',
-                'description' => '<a href="https://apps.twitter.com/app/" target="_blank">Get Consumer Key.</a> Create a new app or select existing app and grab the <b>consumer key.</b>',
+                'default' => '',
+                'description' => '<a href="https://developer.twitter.com/en/portal/dashboard" target="_blank">Get Consumer Key.</a> Create a new app or select existing app and grab the <b>consumer key.</b>',
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
 
@@ -125,8 +134,11 @@ class Twitter_Feed extends Widget_Base
                 'label' => esc_html__('Consumer Secret', 'essential-addons-for-elementor-lite'),
                 'type' => Controls_Manager::TEXT,
                 'label_block' => false,
-                'default' => 'rn54hBqxjve2CWOtZqwJigT3F5OEvrriK2XAcqoQVohzr2UA8h',
-                'description' => '<a href="https://apps.twitter.com/app/" target="_blank">Get Consumer Secret.</a> Create a new app or select existing app and grab the <b>consumer secret.</b>',
+                'default' => '',
+                'description' => '<a href="https://developer.twitter.com/en/portal/dashboard" target="_blank">Get Consumer Secret.</a> Create a new app or select existing app and grab the <b>consumer secret.</b>',
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
 
@@ -314,7 +326,10 @@ class Twitter_Feed extends Widget_Base
                 'default' => __('Read More', 'essential-addons-for-elementor-lite'),
 	            'condition' => [
 	            	'eael_twitter_feed_show_read_more' => 'true',
-	            ]
+                ],
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
 
@@ -339,6 +354,39 @@ class Twitter_Feed extends Widget_Base
                 'label_off' => __('no', 'essential-addons-for-elementor-lite'),
                 'default' => 'true',
                 'return_value' => 'true',
+            ]
+        );
+
+        $this->add_control(
+            'eael_twitter_feed_hyperlinks_header',
+            [
+                'label' => esc_html__('Hyperlinks', 'essential-addons-for-elementor-lite'),
+                'type' => Controls_Manager::HEADING,
+                'separator' => 'before'
+            ]
+        );
+
+        $this->add_control(
+            'eael_twitter_feed_hash_linked',
+            [
+                'label' => esc_html__('Hashtag', 'essential-addons-for-elementor-lite'),
+                'type' => Controls_Manager::SWITCHER,
+                'label_on' => __('Enable', 'essential-addons-for-elementor-lite'),
+                'label_off' => __('Disable', 'essential-addons-for-elementor-lite'),
+                'default' => '',
+                'return_value' => 'yes',
+            ]
+        );
+
+        $this->add_control(
+            'eael_twitter_feed_mention_linked',
+            [
+                'label' => esc_html__('Mentions', 'essential-addons-for-elementor-lite'),
+                'type' => Controls_Manager::SWITCHER,
+                'label_on' => __('Enable', 'essential-addons-for-elementor-lite'),
+                'label_off' => __('Disable', 'essential-addons-for-elementor-lite'),
+                'default' => '',
+                'return_value' => 'yes',
             ]
         );
 
@@ -374,6 +422,9 @@ class Twitter_Feed extends Widget_Base
                 'condition' => [
                     'pagination' => 'yes',
                 ],
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
         
@@ -387,6 +438,9 @@ class Twitter_Feed extends Widget_Base
                 'condition' => [
                     'pagination' => 'yes',
                 ],
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
         
@@ -400,6 +454,9 @@ class Twitter_Feed extends Widget_Base
                 'condition' => [
                     'pagination' => 'yes',
                 ],
+                'ai' => [
+					'active' => false,
+				],
             ]
         );
         
