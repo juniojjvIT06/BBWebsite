@@ -70,6 +70,7 @@ function blocksy_ext_cookies_checkbox($prefix = '') {
 	?>
 
 	<p class="gdpr-confirm-policy">
+		<input name="ct_has_gdprconfirm" type="hidden" value="yes">
 		<input id="gdprconfirm<?php echo $prefix ?>" class="ct-checkbox" name="gdprconfirm" type="checkbox" required><label for="gdprconfirm<?php echo $prefix ?>"><?php echo $message ?></label>
 	</p>
 

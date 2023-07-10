@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-12 01:53:50+0000\n"
+"PO-Revision-Date: 2023-01-31 23:01:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -967,7 +967,7 @@ msgstr "Добавить условие отображения"
 
 #: static/js/options/ConditionsManager.js:388
 msgid "Add User Condition"
-msgstr "Добавить условие состояния пользователя"
+msgstr "Условие состояния пользователя"
 
 #: framework/features/conditions-manager.php:850
 #: static/js/options/ConditionsManager.js:105
@@ -1083,7 +1083,7 @@ msgstr "Загрузка стартовых сайтов..."
 
 #: static/js/screens/DemoInstall.js:133
 msgid "The connection to our <b>demo.creativethemes.com</b> server didn't worked. This connection is required for importing the starter sites from our demo content server. All you have to do is to contact your hosting provider and ask them to white list our demo server address."
-msgstr "Подключение к нашему серверу <b>demo.creativethemes.com</b> не сработало. Это соединение требуется для и��порта стартовых сайтов с нашего сервера демонстрационного контента. Всё, что вам нужно сделать, это связаться с вашим хостинг-провайдером и попросить его внести в белый список адрес нашего демонстрационного сервера."
+msgstr "Подключение к нашему серверу <b>demo.creativethemes.com</b> не сработало. Это соединение требуется для импорта ст��ртовых сайтов с нашего сервера демонстрационного контента. Всё, что вам нужно сделать, это связаться с вашим хостинг-провайдером и попросить его внести в белый список адрес нашего демонстрационного сервера."
 
 #: static/js/screens/DemoInstall/components/Progress.js:29
 msgid "Installing"
@@ -1560,7 +1560,7 @@ msgstr "Цвет значка"
 
 #: framework/premium/extensions/post-types-extra/config.php:6
 msgid "Enables support for Custom Fields inside archive cards and single page post title, adds a reading progress bar for your posts and lets you set featured images and colors for your categories archives."
-msgstr "Включает поддержку настраиваемых полей внутри карточек архива и загол��вка отельной страницы записи, добавляет индикатор хода чтения для записей и позволяет устанавливать изображения и цвета для архивов категорий."
+msgstr "Включает поддержку настраиваемых полей внутри карточек архива и заголовка отел��ной страницы записи, добавляет индикатор хода чтения для записей и позволяет устанавли��ать изображения и цвета для архивов категорий."
 
 #: framework/premium/extensions/post-types-extra/readme.php:4
 msgid "After activating this extension you will be able to enable the read progress bar for your single posts, add a featured image and set different colors to each taxonomy, add custom fields to your archive cards or page/post title section with the help of ACF, MetaBox and Toolset plugins, and also add taxonomies archive filters."

@@ -3,7 +3,7 @@
 
 	<p>
 		<label for="user_login_forgot"><?php echo __('Username or Email Address', 'blocksy-companion')?></label>
-		<input type="text" name="user_login" id="user_login_forgot" class="input" value="" size="20" autocapitalize="off" required>
+		<input type="text" name="user_login" id="user_login_forgot" class="input" value="" size="20" autocomplete="username" autocapitalize="off" required>
 	</p>
 
 	<?php do_action('lostpassword_form'); ?>

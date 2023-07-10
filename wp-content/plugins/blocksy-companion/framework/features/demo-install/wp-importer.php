@@ -1,7 +1,10 @@
 <?php
 
 /** Display verbose errors */
-define( 'IMPORT_DEBUG', false );
+if (! defined('IMPORT_DEBUG')) {
+	define('IMPORT_DEBUG', false);
+}
+
 // Load Importer API
 require_once ABSPATH . 'wp-admin/includes/import.php';
 
@@ -1227,9 +1230,9 @@ class Blocksy_WP_Import extends WP_Importer {
 	 * @param string $file Path to WXR file for parsing
 	 * @return array Information gathered from the WXR file
 	 */
-	function parse( $file ) {
-		$parser = new WXR_Parser();
-		return $parser->parse( $file );
+	function parse($file) {
+		$parser = new Blocksy_WXR_Parser();
+		return $parser->parse($file);
 	}
 
 	// Display import page title

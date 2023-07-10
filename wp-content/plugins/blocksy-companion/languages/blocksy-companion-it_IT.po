@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-27 16:09:28+0000\n"
+"PO-Revision-Date: 2023-01-23 19:10:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -323,15 +323,15 @@ msgstr ""
 
 #: framework/premium/features/premium-header.php:50
 msgid "Mobile Menu 1"
-msgstr ""
+msgstr "Menu Mobile 1"
 
 #: framework/premium/features/premium-header.php:51
 msgid "Mobile Menu 2"
-msgstr ""
+msgstr "Menu Mobile 2"
 
 #: framework/extensions/newsletter-subscribe/includes/BlocksyMailerliteManager.php:99
 msgid "Thank you for subscribing to our newsletter!"
-msgstr ""
+msgstr "Grazie per esserti iscritto alla nostra newsletter!"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/premium/extensions/adobe-typekit/config.php:5
@@ -346,7 +346,7 @@ msgstr ""
 #: framework/premium/extensions/code-snippets/extension.php:114
 msgctxt "Extension Brand Name"
 msgid "Custom Code Snippets"
-msgstr ""
+msgstr "Custom Code Snippets"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/premium/extensions/custom-fonts/config.php:5
@@ -358,7 +358,7 @@ msgstr ""
 #: framework/premium/extensions/local-google-fonts/config.php:5
 msgctxt "Extension Brand Name"
 msgid "Local Google Fonts"
-msgstr ""
+msgstr "Google Font locali"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/premium/extensions/mega-menu/config.php:5
@@ -370,7 +370,7 @@ msgstr ""
 #: framework/premium/extensions/post-types-extra/config.php:5
 msgctxt "Extension Brand Name"
 msgid "Post Types Extra"
-msgstr ""
+msgstr "Post Types Extra"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/premium/extensions/shortcuts/config.php:5,
@@ -381,17 +381,17 @@ msgstr ""
 
 #: framework/premium/extensions/shortcuts/customizer.php:300
 msgid "Set link to nofollow"
-msgstr ""
+msgstr "Imposta il link su nofollow"
 
 #: framework/premium/extensions/shortcuts/customizer.php:306
 msgid "Custom class"
-msgstr ""
+msgstr "Classe personalizzata"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/premium/extensions/sidebars/config.php:5
 msgctxt "Extension Brand Name"
 msgid "Multiple Sidebars"
-msgstr ""
+msgstr "Più Sidebars"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/premium/extensions/white-label/config.php:5
@@ -407,23 +407,23 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:162
 msgid "Gallery Arrows Visibility"
-msgstr ""
+msgstr "Visibilità Frecce Galleria"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:183
 msgid "Thumbnails Arrows Visibility"
-msgstr ""
+msgstr "Visibilità Frecce Thumbnails"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:407
 msgid "Icons Spacing"
-msgstr ""
+msgstr "Spaziatura Icone"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:455
 msgid "WooCommerce Offcanvas Filters"
-msgstr ""
+msgstr "Filtro Offcanvas WooCommerce"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:457
 msgid "Add widgets here."
-msgstr ""
+msgstr "Aggiungi qui i widgets."
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:740
 msgid "Close filters modal"
@@ -449,33 +449,33 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:344,
 #: framework/features/header/items/account/options.php:1180
 msgid "Simple"
-msgstr ""
+msgstr "Semplice"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:345,
 #: framework/features/header/items/account/options.php:1181
 msgid "Border"
-msgstr ""
+msgstr "Bordo"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:386,
 #: framework/features/header/items/account/options.php:1224
 msgid "Border Color"
-msgstr ""
+msgstr "Colore Bordo"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:170
 msgid "Before description"
-msgstr ""
+msgstr "Prima della descrizione"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:178
 msgid "Before breadcrumbs"
-msgstr ""
+msgstr "Prima dei breadcrumbs"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:202
 msgid "After description"
-msgstr ""
+msgstr "Dopo la descrizione"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:210
 msgid "After breadcrumbs"
-msgstr ""
+msgstr "Dopo i breadcrumbs"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:592
 msgid "Before shop loop item actions"
@@ -496,19 +496,19 @@ msgstr ""
 
 #: framework/features/header/items/account/options.php:641
 msgid "User Visibility"
-msgstr ""
+msgstr "Visibilità utente"
 
 #: framework/features/header/items/account/options.php:652
 msgid "Logged In"
-msgstr ""
+msgstr "Loggato"
 
 #: framework/features/header/items/account/options.php:653
 msgid "Logged Out"
-msgstr ""
+msgstr "Sloggato"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:880
 msgid "Custom Field"
-msgstr ""
+msgstr "Campo personalizzato"
 
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:126
 msgid "%s min"
@@ -518,15 +518,15 @@ msgstr[1] ""
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-helpers.php:38
 msgid "Wishlist icon"
-msgstr ""
+msgstr "Icona wishlist "
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:101
 msgid "Enable AJAX loading"
-msgstr ""
+msgstr "Abilita loading AJAX"
 
 #: framework/premium/features/content-blocks/options/archive.php:71
 msgid "Default Card Layout"
-msgstr ""
+msgstr "Layout Default Cart"
 
 #: framework/premium/features/content-blocks/options/archive.php:76
 msgid "Inherit card wrapper settings from Customizer (background color, spacing, shadow)."
@@ -535,7 +535,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/archive.php:28,
 #: framework/premium/features/content-blocks/options/single.php:126
 msgid "Dynamic Content Preview"
-msgstr ""
+msgstr "Anteprima contenuto dinamico"
 
 #: framework/premium/features/content-blocks/options/archive.php:35
 msgid "Select a post/page to preview it's content inside the editor while building the archive."
@@ -543,7 +543,7 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/archive.php:39
 msgid "Editor/Card Width"
-msgstr ""
+msgstr "Larghezza Editor/Card"
 
 #: framework/premium/features/content-blocks/options/archive.php:50
 msgid "Set the editor width for better understanging the layout you are building (just for preview purpose, this option won't apply in frontend)."
@@ -551,11 +551,11 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:269
 msgid "After X Pages"
-msgstr ""
+msgstr "Dopo X pagine"
 
 #: framework/premium/features/content-blocks/options/popup.php:275
 msgid "Set after how many visited pages the popup block will appear."
-msgstr ""
+msgstr "Imposta dopo quante pagine visitate il blocco popup apparirà."
 
 #: framework/premium/features/content-blocks/options/single.php:132
 msgid "Select a post/page to preview it's content inside the editor while building the post/page."
@@ -567,52 +567,52 @@ msgstr ""
 
 #: framework/premium/static/js/hooks/CodeEditor.js:73
 msgid "Code Editor"
-msgstr ""
+msgstr "Editore di codice"
 
 #: framework/premium/static/js/hooks/CreateHook.js:101
 msgid "Template Type"
-msgstr ""
+msgstr "Tipo di Template"
 
 #: framework/premium/static/js/hooks/CreateHook.js:116
 msgid "Archive Template"
-msgstr ""
+msgstr "Template Archivio"
 
 #: framework/premium/static/js/hooks/CreateHook.js:124
 msgid "Single Template"
-msgstr ""
+msgstr "Template Singolo"
 
 #: framework/premium/static/js/hooks/CreateHook.js:162
 msgid "Hook Name"
-msgstr ""
+msgstr "Nome Hook"
 
 #: framework/premium/static/js/hooks/CreateHook.js:166
 msgid "Popup Name"
-msgstr ""
+msgstr "Nome Popup"
 
 #: framework/premium/static/js/hooks/CreateHook.js:170
 msgid "Template Name"
-msgstr ""
+msgstr "Nome template"
 
 #: framework/premium/features/content-blocks/admin-ui.php:121
 #: framework/premium/static/js/hooks/CreateHook.js:77
 msgid "Popup"
-msgstr ""
+msgstr "Popup"
 
 #: framework/premium/static/js/hooks/CreateHook.js:86
 msgid "Custom Template"
-msgstr ""
+msgstr "Template Personalizzato"
 
 #: framework/premium/static/js/media-video-upload-button.js:27
 msgid "Select MP4"
-msgstr ""
+msgstr "Seleziona MP4"
 
 #: framework/premium/static/js/media-video-upload-button.js:29
 msgid "Attach MP4"
-msgstr ""
+msgstr "Allega MP4"
 
 #: framework/premium/static/js/options/IconPicker.js:20
 msgid "Theme Icons"
-msgstr ""
+msgstr "Icone Tema"
 
 #: framework/premium/static/js/options/IconPicker.js:26
 msgid "FontAwesome Brands"
@@ -630,73 +630,73 @@ msgstr ""
 #: framework/premium/static/js/typography/providers/plus-addons.js:23
 #: framework/premium/static/js/typography/providers/stackable.js:23
 msgid "%s Local Google Fonts"
-msgstr ""
+msgstr "%s Google Fonts in Locale"
 
 #: framework/premium/static/js/typography/providers/kadence.js:26
 #: framework/premium/static/js/typography/providers/plus-addons.js:27
 #: framework/premium/static/js/typography/providers/stackable.js:27
 msgid "%s Typekit"
-msgstr ""
+msgstr "%s Typekit"
 
 #: framework/premium/static/js/typography/providers/kadence.js:31
 #: framework/premium/static/js/typography/providers/stackable.js:31
 msgid "%s Custom Fonts"
-msgstr ""
+msgstr "%s Font Personalizzati"
 
 #: framework/premium/static/js/typography/providers/kadence.js:59
 msgid "Normal"
-msgstr ""
+msgstr "Normale"
 
 #: framework/premium/static/js/typography/providers/kadence.js:83
 msgid "Inherit"
-msgstr ""
+msgstr "Eredita"
 
 #: framework/premium/static/js/typography/providers/plus-addons.js:31
 msgid "%s Custom"
-msgstr ""
+msgstr "%s Personalizzato"
 
 #: framework/premium/static/js/typography/providers/plus-addons.js:35
 msgid "%s System"
-msgstr ""
+msgstr "%s System"
 
 #. translators: %s: Link to the login page.
 #: framework/features/account-auth.php:92
 msgid "Check your email for the confirmation link, then visit the <a href=\"%s\">login page</a>."
-msgstr ""
+msgstr "Controlla la tua email per il link di conferma, quindi visita la <a href=\"%s\">pagina di login</a>."
 
 #: framework/features/account-auth.php:217
 msgid "Your account was created successfully. Your login details have been sent to your email address. Please visit the <a href=\"%s\">login page</a>."
-msgstr ""
+msgstr "Il tuo account è stato creato con successo. I dettagli per il login sono stati inviati al tuo indirizzo email. Per cortesia visita la <a href=\"%s\">pagina di login</a>."
 
 #: framework/features/account-auth.php:226
 msgid "Your account was created successfully and a password has been sent to your email address. Please visit the <a href=\"%s\">login page</a>."
-msgstr ""
+msgstr "Il tuo account è stato creato con successo e una password è stata inviata al tuo indirizzo email. Per cortesia visita la <a href=\"%s\">pagina di login</a>."
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/extensions/cookies-consent/config.php:5,
 #: framework/extensions/cookies-consent/customizer.php:5
 msgctxt "Extension Brand Name"
 msgid "Cookies Consent"
-msgstr ""
+msgstr "Cookies Consent"
 
 #: framework/extensions/cookies-consent/customizer.php:76
 msgid "Accept Button text"
-msgstr ""
+msgstr "Testo Bottone Accetta"
 
 #: framework/extensions/cookies-consent/customizer.php:85
 msgid "Decline Button text"
-msgstr ""
+msgstr "Testo Bottone Rifiuta"
 
 #: framework/extensions/cookies-consent/customizer.php:88,
 #: framework/extensions/cookies-consent/helpers.php:34
 msgid "Decline"
-msgstr ""
+msgstr "Declina"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/extensions/newsletter-subscribe/config.php:5
 msgctxt "Extension Brand Name"
 msgid "Newsletter Subscribe"
-msgstr ""
+msgstr "Newsletter Subscribe"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/extensions/product-reviews/config.php:5
@@ -706,7 +706,7 @@ msgstr ""
 
 #: framework/extensions/product-reviews/metabox.php:60
 msgid "Please note that some of this information (price, sku, brand) won't be displayed on the front-end. It is solely used for Google's Schema.org markup."
-msgstr ""
+msgstr "Si prega di notare che alcune delle seguenti informazioni (prezzo, sku, brand) non sarranno mostrate in front-end. Sono solamente usate per il markup di Google Schema.org."
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/extensions/trending/config.php:5,
@@ -717,7 +717,7 @@ msgstr ""
 
 #: framework/extensions/trending/customizer.php:245
 msgid "Image Size"
-msgstr ""
+msgstr "Dimensione Immagine"
 
 #. translators: This is a brand name. Preferably to not be translated
 #: framework/extensions/widgets/config.php:5
@@ -727,49 +727,49 @@ msgstr ""
 
 #: framework/features/header/account-modal.php:37
 msgid "Close account modal"
-msgstr ""
+msgstr "Chiudi finestra modale account"
 
 #: framework/features/header/header-options.php:63
 msgid "Effect"
-msgstr ""
+msgstr "Effetto"
 
 #: framework/features/header/header-options.php:79
 msgid "Offset"
-msgstr ""
+msgstr "Offset"
 
 #: framework/premium/features/content-blocks/admin-ui.php:131
 msgid "All types"
-msgstr ""
+msgstr "Tutti i tipi"
 
 #: framework/premium/features/content-blocks/admin-ui.php:231,
 #: framework/premium/features/content-blocks/options/popup.php:168
 msgid "After x pages"
-msgstr ""
+msgstr "Dopo x pagine"
 
 #: framework/premium/features/content-blocks.php:897
 msgid "Close popup"
-msgstr ""
+msgstr "Chiudi popup"
 
 #: framework/premium/features/media-meta-fields.php:29
 msgid "Attachment Video"
-msgstr ""
+msgstr "Allegato Video"
 
 #: framework/premium/features/media-meta-fields.php:33
 msgid "Video URL"
-msgstr ""
+msgstr "URL Video"
 
 #. translators: %s: Link to wordpress.org article
 #: framework/premium/features/media-meta-fields.php:39
 msgid "Enter a <a href=\"%s\" target=\"_blank\">valid media URL</a> or upload an MP4 file into the media library."
-msgstr ""
+msgstr "Inserire un <a href=\"%s\" target=\"_blank\">valido URL media</a> o carica un file MP4 nella libreria media."
 
 #: framework/premium/features/media-meta-fields.php:42
 msgid "Upload"
-msgstr ""
+msgstr "Carica"
 
 #: framework/premium/features/media-meta-fields.php:44
 msgid "Upload Video (MP4 File)"
-msgstr ""
+msgstr "Carica Video (File MP4)"
 
 #: framework/premium/static/js/header/CreateHeader.js:117
 msgid "Picker header"
@@ -782,31 +782,31 @@ msgstr "Header globale"
 
 #: framework/premium/static/js/header/CreateHeader.js:173
 msgid "Create New Header"
-msgstr ""
+msgstr "Crea Nuovo Header"
 
 #: framework/premium/static/js/header/CreateHeader.js:50
 msgid "Create new header"
-msgstr ""
+msgstr "Crea nuovo header"
 
 #: framework/premium/static/js/header/CreateHeader.js:53
 msgid "Create a new header and assign it to different pages or posts based on your conditions."
-msgstr ""
+msgstr "Crea un nuovo header e assegnalo ad una pagina diversa o ad un post in base alle tue condizioni."
 
 #: framework/premium/static/js/header/CreateHeader.js:71
 msgid "Header name"
-msgstr ""
+msgstr "Nome Header"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:252
 msgid "Yes, continue"
-msgstr ""
+msgstr "Yes, continua"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:164
 msgid "Use code editor"
-msgstr ""
+msgstr "Usa l'editore di codice"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:167
 msgid "Exit code editor"
-msgstr ""
+msgstr "Esci dall'editore di codice"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:179
 msgid "Heads up!"
@@ -818,11 +818,11 @@ msgstr ""
 
 #: framework/premium/static/js/hooks/CodeEditor.js:188
 msgid "Are you sure you want to continue?"
-msgstr ""
+msgstr "Sei sicuro di voler continuare?"
 
 #: framework/premium/static/js/hooks/CreateHook.js:207
 msgid "Create Content Block"
-msgstr ""
+msgstr "Crea Content Block"
 
 #: framework/premium/static/js/hooks/CreateHook.js:36
 msgid "Please select the type of your content block and place it in the location you want based on your display and user conditions."
@@ -839,51 +839,51 @@ msgstr ""
 
 #: framework/premium/static/js/hooks/CreateHook.js:148
 msgid "404 Page Template"
-msgstr ""
+msgstr "Template Pagina 404"
 
 #: framework/premium/static/js/hooks/CreateHook.js:132
 msgid "Header Template"
-msgstr ""
+msgstr "Template Header"
 
 #: framework/premium/static/js/hooks/CreateHook.js:140
 msgid "Footer Template"
-msgstr ""
+msgstr "Template Footer"
 
 #: framework/premium/static/js/options/IconPicker.js:133
 msgid "Change Icon"
-msgstr ""
+msgstr "Cambia Icona"
 
 #: framework/premium/static/js/options/IconPicker.js:150
 msgid "Remove Icon"
-msgstr ""
+msgstr "Rimuovi Icona"
 
 #: framework/premium/static/js/options/IconPicker.js:156
 msgid "Select"
-msgstr ""
+msgstr "Seleziona"
 
 #: framework/premium/static/js/options/IconPicker/Modal.js:148
 msgid "Upload Icon"
-msgstr ""
+msgstr "Carica Icona"
 
 #: framework/premium/static/js/options/IconPicker/CustomIcon.js:34
 msgid "For performance and customization reasons, only SVG files are allowed."
-msgstr ""
+msgstr "Per ragioni di performance e di customizzazione, sono permessi solo file SVG."
 
 #: framework/premium/static/js/options/IconPicker/IconsList.js:24
 msgid "Search icon"
-msgstr ""
+msgstr "Icona di Ricerca"
 
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:156
 msgid "Add New Location"
-msgstr ""
+msgstr "Aggiungi nuova Location"
 
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:47
 msgid "Select location"
-msgstr ""
+msgstr "Seleziona Location"
 
 #: static/js/dashboard.js:30
 msgid "Starter Sites"
-msgstr ""
+msgstr "Starter Sites"
 
 #: static/js/dashboard.js:42
 msgid "Extensions"
@@ -904,15 +904,15 @@ msgstr "Rimuovi header"
 
 #: static/js/header/PanelsManager.js:197
 msgid "Remove Header"
-msgstr ""
+msgstr "Rimuovi Header"
 
 #: static/js/header/PanelsManager.js:200
 msgid "You are about to remove a custom header, are you sure you want to continue?"
-msgstr ""
+msgstr "Stai rimuovendo un custom header, sei sicuro di voler continuare?"
 
 #: static/js/helpers/SubmitSupport.js:18
 msgid "Need help or advice?"
-msgstr ""
+msgstr "Necessiti di aiuto o consigli?"
 
 #: static/js/helpers/SubmitSupport.js:20
 msgid "Got a question or need help with the theme? You can always submit a support ticket or ask for help in our friendly Facebook community."
@@ -920,15 +920,15 @@ msgstr ""
 
 #: static/js/helpers/SubmitSupport.js:30
 msgid "Submit a Support Ticket"
-msgstr ""
+msgstr "Apri un Ticket di Supporto"
 
 #: static/js/helpers/SubmitSupport.js:38
 msgid "Join Facebook Community"
-msgstr ""
+msgstr "Unisciti alla Commuity di Facebook"
 
 #: static/js/helpers/useActivationAction.js:113
 msgid "Free vs Pro"
-msgstr ""
+msgstr "Free contro Pro"
 
 #: static/js/helpers/useActivationAction.js:120
 msgid "Upgrade Now"
@@ -952,11 +952,11 @@ msgstr ""
 
 #: static/js/options/ConditionsManager.js:299
 msgid "Select user"
-msgstr ""
+msgstr "Seleziona Utente"
 
 #: static/js/options/ConditionsManager.js:263
 msgid "Current user"
-msgstr ""
+msgstr "Utente corrente"
 
 #: static/js/options/ConditionsManager.js:369
 msgid "Add Display Condition"
@@ -964,7 +964,7 @@ msgstr "Aggiungi condizione di visualizzazione"
 
 #: static/js/options/ConditionsManager.js:388
 msgid "Add User Condition"
-msgstr ""
+msgstr "Aggiungi Condizioni Utente"
 
 #: framework/features/conditions-manager.php:850
 #: static/js/options/ConditionsManager.js:105
@@ -992,11 +992,11 @@ msgstr "Seleziona pagina"
 
 #: static/js/options/CustomizerOptionsManager.js:110
 msgid "Import Options"
-msgstr ""
+msgstr "Opzioni Import"
 
 #: static/js/options/CustomizerOptionsManager.js:113
 msgid "Easily import the theme customizer settings."
-msgstr ""
+msgstr "Importa facilmente i setting del customizer del tema."
 
 #: static/js/options/CustomizerOptionsManager.js:136
 msgid "Click or drop to upload a file..."
@@ -1004,7 +1004,7 @@ msgstr ""
 
 #: static/js/options/CustomizerOptionsManager.js:197
 msgid "Import Customizations"
-msgstr ""
+msgstr "Importa Personalizzazioni"
 
 #: static/js/options/CustomizerOptionsManager.js:206
 msgid "Copy Options"
@@ -1100,7 +1100,7 @@ msgstr "Installa"
 
 #: static/js/screens/DemoInstall/DemoToInstall.js:346
 msgid "Next"
-msgstr ""
+msgstr "Prossimo"
 
 #: static/js/screens/DemoInstall/DemosList.js:100
 msgid "Import"
@@ -1120,11 +1120,11 @@ msgstr "Modifica"
 
 #: static/js/screens/DemoInstall/Installer/InstallCompleted.js:22
 msgid "Starter Site Imported Successfully"
-msgstr ""
+msgstr "Starter site Importato con Successo"
 
 #: static/js/screens/DemoInstall/Installer/InstallCompleted.js:25
 msgid "Now you can view your website or start customizing it"
-msgstr ""
+msgstr "Ora puoi vedere il tuo sito o cominciare a personalizzarlo"
 
 #: static/js/screens/DemoInstall/Installer/InstallCompleted.js:33
 msgid "Customize"
@@ -1136,15 +1136,15 @@ msgstr "Visualizza il sito"
 
 #: static/js/screens/DemoInstall/Installer/messages.js:12
 msgid "copying child theme sources"
-msgstr ""
+msgstr "Copiare le sorgenti del child theme"
 
 #: static/js/screens/DemoInstall/Installer/messages.js:16
 msgid "activating child theme"
-msgstr ""
+msgstr "Attivazione child theme"
 
 #: static/js/screens/DemoInstall/Installer/messages.js:21
 msgid "installing plugin %s"
-msgstr ""
+msgstr "installazione plugin %s"
 
 #: static/js/screens/DemoInstall/Installer/messages.js:28
 msgid "activating plugin %s"
@@ -1152,15 +1152,15 @@ msgstr ""
 
 #: static/js/screens/DemoInstall/Installer/messages.js:34
 msgid "downloading demo widgets"
-msgstr ""
+msgstr "downloading widgets demo"
 
 #: static/js/screens/DemoInstall/Installer/messages.js:38
 msgid "installing demo widgets"
-msgstr ""
+msgstr "Installazione widgets demo"
 
 #: static/js/screens/DemoInstall/Installer/messages.js:42
 msgid "downloading demo options"
-msgstr ""
+msgstr "scaricamento options demo"
 
 #: static/js/screens/DemoInstall/Installer/messages.js:46
 msgid "importing images from customizer"
@@ -1233,15 +1233,15 @@ msgstr ""
 #: static/js/screens/DemoInstall/Installer/useInstaller.js:139
 #: static/js/screens/DemoInstall/Wizzard/ModifyDemo.js:49
 msgid "Erase content"
-msgstr ""
+msgstr "Cancellazione contenuto"
 
 #: static/js/screens/DemoInstall/Installer/useInstaller.js:145
 msgid "Final touches"
-msgstr ""
+msgstr "Tocchi Finali"
 
 #: static/js/screens/DemoInstall/Installer/useInstaller.js:151
 msgid "Import options"
-msgstr ""
+msgstr "Importazione opzioni"
 
 #: static/js/screens/DemoInstall/Installer/useInstaller.js:161
 msgid "Import widgets"
@@ -1261,11 +1261,11 @@ msgstr "Impara di più sui temi child"
 
 #: static/js/screens/DemoInstall/Wizzard/ChildTheme.js:70
 msgid "We strongly recommend to install the child theme, this way you will have freedom to make changes without breaking the parent theme."
-msgstr ""
+msgstr "Raccomandiamo fortemente di installare il child theme, in tal modo avrai la libertà di fare modifiche senza rompere il tema genitore."
 
 #: static/js/screens/DemoInstall/Wizzard/ChildTheme.js:77
 msgid "We strongly recommend to activate the child theme, this way you will have freedom to make changes without breaking the parent theme."
-msgstr ""
+msgstr "Raccomandiamo fortemente di attivare il child theme, in tal modo avrai la libertà di fare modifiche senza rompere il tema genitore."
 
 #: static/js/screens/DemoInstall/Wizzard/ChildTheme.js:93
 msgid "Install Child Theme"
@@ -1277,15 +1277,15 @@ msgstr "Attiva il tema child"
 
 #: static/js/screens/DemoInstall/Wizzard/Content.js:28
 msgid "Import Content"
-msgstr ""
+msgstr "Importare Contenuto"
 
 #: static/js/screens/DemoInstall/Wizzard/Content.js:31
 msgid "This will import posts, pages, comments, navigation menus, custom fields, terms and custom posts"
-msgstr ""
+msgstr "Questo importerà post, pagine, commenti, menù di navigazione, custom fields, termini e custom posts"
 
 #: static/js/screens/DemoInstall/Wizzard/Content.js:71
 msgid "Clean Install"
-msgstr ""
+msgstr "Installazione pulita"
 
 #: static/js/screens/DemoInstall/Wizzard/Content.js:73
 msgid "This option will remove the previous imported content and will perform a fresh and clean install."
@@ -1293,11 +1293,11 @@ msgstr ""
 
 #: static/js/screens/DemoInstall/Wizzard/ModifyDemo.js:115
 msgid "This starter site is already installed"
-msgstr ""
+msgstr "Lo starter site è già installato"
 
 #: static/js/screens/DemoInstall/Wizzard/ModifyDemo.js:120
 msgid "Starter Site Removed"
-msgstr ""
+msgstr "Starter Site Rimosso"
 
 #: static/js/screens/DemoInstall/Wizzard/ModifyDemo.js:129
 msgid "Dismiss"
@@ -1317,11 +1317,11 @@ msgstr "Reinstalla"
 
 #: static/js/screens/DemoInstall/Wizzard/ModifyDemo.js:42
 msgid "Deactivate demo plugins"
-msgstr ""
+msgstr "Disattiva plugin demo"
 
 #: static/js/screens/DemoInstall/Wizzard/PickBuilder.js:66
 msgid "Choose Page Builder"
-msgstr ""
+msgstr "Segli il Page Builder"
 
 #: static/js/screens/DemoInstall/Wizzard/PickBuilder.js:69
 msgid "This starter site can be imported and used with one of these page builders. Please select your prefered one in order to continue."
@@ -1377,47 +1377,47 @@ msgstr ""
 
 #: framework/premium/extensions/mega-menu/extension.php:257
 msgid "New"
-msgstr ""
+msgstr "Nuovo"
 
 #: framework/premium/extensions/mega-menu/options.php:16,
 #: framework/premium/extensions/mega-menu/options.php:540
 msgid "Mega Menu Settings"
-msgstr ""
+msgstr "Setting Mega Menu"
 
 #: framework/premium/extensions/mega-menu/options.php:27
 msgid "Dropdown Width"
-msgstr ""
+msgstr "Larghezza Dropdown"
 
 #: framework/premium/extensions/mega-menu/options.php:35,
 #: framework/premium/extensions/mega-menu/options.php:48
 msgid "Content Width"
-msgstr ""
+msgstr "Larghezza Contenuto"
 
 #: framework/premium/extensions/mega-menu/options.php:36,
 #: framework/premium/extensions/mega-menu/options.php:57
 msgid "Full Width"
-msgstr ""
+msgstr "Larghezza Piena"
 
 #: framework/premium/extensions/mega-menu/options.php:37,
 #: framework/premium/features/content-blocks/options/archive.php:59
 msgid "Custom Width"
-msgstr ""
+msgstr "Larghezza Personalizzata"
 
 #: framework/premium/extensions/mega-menu/options.php:56
 msgid "Default Width"
-msgstr ""
+msgstr "Larghezza Predefinita"
 
 #: framework/premium/extensions/mega-menu/options.php:85
 msgid "Columns"
-msgstr ""
+msgstr "Colonne"
 
 #: framework/premium/extensions/mega-menu/options.php:320
 msgid "Custom Content"
-msgstr ""
+msgstr "Contenuto Personalizzato"
 
 #: framework/premium/extensions/mega-menu/options.php:324
 msgid "Content Type"
-msgstr ""
+msgstr "Tipo Contenuto"
 
 #: framework/premium/extensions/mega-menu/options.php:331
 msgid "Default (Menu Item)"
@@ -1438,7 +1438,7 @@ msgstr ""
 
 #: framework/premium/extensions/mega-menu/options.php:407
 msgid "Enabled"
-msgstr ""
+msgstr "Abilitato"
 
 #: framework/premium/extensions/mega-menu/options.php:408,
 #: framework/premium/features/content-blocks/options/404.php:110,
@@ -1447,15 +1447,15 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/hook.php:113,
 #: framework/premium/features/content-blocks/options/single.php:99
 msgid "Disabled"
-msgstr ""
+msgstr "Disabilitato"
 
 #: framework/premium/extensions/mega-menu/options.php:409
 msgid "Heading"
-msgstr ""
+msgstr "Heading"
 
 #: framework/premium/extensions/mega-menu/options.php:415
 msgid "Label Link"
-msgstr ""
+msgstr "Link Label"
 
 #: framework/premium/extensions/mega-menu/options.php:491,
 #: framework/premium/extensions/mega-menu/options.php:812
@@ -1465,18 +1465,18 @@ msgstr ""
 #: framework/premium/extensions/mega-menu/options.php:509,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:260
 msgid "Vertical Alignment"
-msgstr ""
+msgstr "Allineamento Verticale"
 
 #: framework/premium/extensions/mega-menu/options.php:544,
 #: framework/premium/extensions/shortcuts/customizer.php:883,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:346,
 #: framework/features/header/items/account/options.php:1182
 msgid "Background"
-msgstr ""
+msgstr "Background"
 
 #: framework/premium/extensions/mega-menu/options.php:558
 msgid "Link Color"
-msgstr ""
+msgstr "Colore Link"
 
 #: framework/premium/extensions/mega-menu/options.php:578,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:144,
@@ -1484,55 +1484,55 @@ msgstr ""
 #: framework/premium/features/premium-header/items/contacts/options.php:520,
 #: framework/premium/features/premium-header/items/contacts/options.php:560
 msgid "Link Initial"
-msgstr ""
+msgstr "Link iniziale"
 
 #: framework/premium/extensions/mega-menu/options.php:583
 msgid "Link Hover/Active"
-msgstr ""
+msgstr "Link Hover/Active"
 
 #: framework/premium/extensions/mega-menu/options.php:588
 msgid "Background Hover"
-msgstr ""
+msgstr "Hover Background"
 
 #: framework/premium/extensions/mega-menu/options.php:605,
 #: framework/premium/extensions/mega-menu/options.php:739
 msgid "Heading Color"
-msgstr ""
+msgstr "Colore Heading"
 
 #: framework/premium/extensions/mega-menu/options.php:617,
 #: framework/premium/extensions/mega-menu/options.php:637,
 #: framework/premium/extensions/mega-menu/options.php:751
 msgid "Initial Color"
-msgstr ""
+msgstr "Colore Iniziale"
 
 #: framework/extensions/cookies-consent/customizer.php:147,
 #: framework/premium/extensions/mega-menu/options.php:625
 msgid "Text Color"
-msgstr ""
+msgstr "Colore Testo"
 
 #: framework/premium/extensions/mega-menu/options.php:644,
 #: framework/premium/extensions/shortcuts/customizer.php:900,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:441,
 #: framework/premium/features/premium-header/items/search-input/options.php:836
 msgid "Items Divider"
-msgstr ""
+msgstr "Divisore Item"
 
 #: framework/premium/extensions/mega-menu/options.php:659
 msgid "Columns Divider"
-msgstr ""
+msgstr "Divisore Colonne"
 
 #: framework/premium/extensions/mega-menu/options.php:674,
 #: framework/premium/features/premium-header/items/search-input/options.php:818
 msgid "Dropdown Shadow"
-msgstr ""
+msgstr "Ombra Dropdown"
 
 #: framework/premium/extensions/mega-menu/options.php:706
 msgid "Column Settings"
-msgstr ""
+msgstr "Impostazioni Colonna"
 
 #: framework/premium/extensions/mega-menu/options.php:710
 msgid "Column Spacing"
-msgstr ""
+msgstr "Spaziatura Colonna"
 
 #: framework/premium/extensions/mega-menu/options.php:762,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:352,
@@ -1553,7 +1553,7 @@ msgstr ""
 #: framework/premium/features/premium-header/items/dark-mode-switcher/options.php:89,
 #: framework/premium/features/premium-header/items/dark-mode-switcher/options.php:118
 msgid "Icon Color"
-msgstr ""
+msgstr "Colore Icone"
 
 #: framework/premium/extensions/post-types-extra/config.php:6
 msgid "Enables support for Custom Fields inside archive cards and single page post title, adds a reading progress bar for your posts and lets you set featured images and colors for your categories archives."
@@ -1565,7 +1565,7 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/readme.php:10
 msgid "Custom Fields"
-msgstr ""
+msgstr "Campi Personalizzati"
 
 #: framework/premium/extensions/post-types-extra/readme.php:14
 msgid "After setting up your custom fields you will be able to output them from %s or from %2s."
@@ -1625,7 +1625,7 @@ msgstr ""
 #: framework/premium/extensions/shortcuts/views/bar.php:13,
 #: framework/premium/extensions/shortcuts/views/bar.php:43
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: framework/premium/extensions/shortcuts/customizer.php:68,
 #: framework/premium/extensions/shortcuts/customizer.php:91,
@@ -1641,18 +1641,18 @@ msgstr "Telefono"
 #: framework/premium/extensions/shortcuts/customizer.php:215,
 #: framework/premium/extensions/shortcuts/views/bar.php:46
 msgid "Scroll Top"
-msgstr ""
+msgstr "Scroll Top"
 
 #: framework/premium/extensions/shortcuts/customizer.php:338,
 #: framework/premium/extensions/shortcuts/customizer.php:361,
 #: framework/premium/extensions/shortcuts/views/bar.php:47
 msgid "Cart"
-msgstr ""
+msgstr "Carrello"
 
 #: framework/premium/extensions/shortcuts/customizer.php:394,
 #: framework/premium/extensions/shortcuts/customizer.php:417
 msgid "Shop"
-msgstr ""
+msgstr "Shop"
 
 #: framework/premium/extensions/shortcuts/customizer.php:450,
 #: framework/premium/extensions/shortcuts/customizer.php:473,
@@ -1662,25 +1662,25 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:100,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:106
 msgid "Wishlist"
-msgstr ""
+msgstr "Wishlist"
 
 #: framework/premium/extensions/shortcuts/customizer.php:557
 msgid "Shortcuts"
-msgstr ""
+msgstr "Shortcuts"
 
 #: framework/premium/extensions/shortcuts/customizer.php:612,
 #: framework/features/header/items/account/options.php:275,
 #: framework/features/header/items/account/options.php:572,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:92
 msgid "Label Visibility"
-msgstr ""
+msgstr "Visibilità Label"
 
 #: framework/premium/extensions/shortcuts/customizer.php:652,
 #: framework/features/header/items/account/options.php:311,
 #: framework/features/header/items/account/options.php:608,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:123
 msgid "Label Position"
-msgstr ""
+msgstr "Posizione Label"
 
 #: framework/premium/extensions/shortcuts/customizer.php:661,
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:25,
@@ -1690,7 +1690,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/hook.php:307,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:132
 msgid "Bottom"
-msgstr ""
+msgstr "Fondo"
 
 #: framework/premium/extensions/mega-menu/options.php:441,
 #: framework/premium/extensions/shortcuts/customizer.php:672,
@@ -1703,23 +1703,23 @@ msgstr "Dimensioni dell'icona"
 
 #: framework/premium/extensions/shortcuts/customizer.php:682
 msgid "Container Height"
-msgstr ""
+msgstr "Altezza Container"
 
 #: framework/premium/extensions/shortcuts/customizer.php:697
 msgid "Container Max Width"
-msgstr ""
+msgstr "Larghezza Massima Container"
 
 #: framework/premium/extensions/shortcuts/customizer.php:721
 msgid "Scroll Interaction"
-msgstr ""
+msgstr "Interazione con Scoll"
 
 #: framework/premium/extensions/shortcuts/customizer.php:727
 msgid "Hide"
-msgstr ""
+msgstr "Nascondi"
 
 #: framework/premium/extensions/shortcuts/customizer.php:769
 msgid "Shortcuts Bar Display Conditions"
-msgstr ""
+msgstr "Condizioni Visibilità Shortcuts Bar"
 
 #: framework/premium/extensions/shortcuts/customizer.php:770
 msgid "Add one or more conditions to display the shortcuts bar."
@@ -1731,7 +1731,7 @@ msgstr ""
 #: framework/premium/features/premium-header/items/language-switcher/options.php:192,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:385
 msgid "Font"
-msgstr ""
+msgstr "Font"
 
 #: framework/premium/extensions/shortcuts/customizer.php:826,
 #: framework/premium/features/premium-header/items/contacts/options.php:590,
@@ -1739,7 +1739,7 @@ msgstr ""
 #: framework/premium/features/premium-header/items/contacts/options.php:650,
 #: framework/premium/features/premium-header/items/contacts/options.php:680
 msgid "Icons Color"
-msgstr ""
+msgstr "Colore Icone"
 
 #: framework/premium/extensions/shortcuts/customizer.php:865
 msgid "Cart Badge Color"
@@ -1754,7 +1754,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/popup.php:387,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:455
 msgid "Shadow"
-msgstr ""
+msgstr "Ombra"
 
 #: framework/premium/extensions/sidebars/config.php:6
 msgid "Create unlimited personalized sets of widget areas and display them on any page or post using our conditional logic functionality."
@@ -1762,7 +1762,7 @@ msgstr ""
 
 #: framework/premium/extensions/sidebars/config.php:10
 msgid "Create New Sidebar"
-msgstr ""
+msgstr "Creare Nuova Sidebar"
 
 #: framework/premium/extensions/sidebars/form.php:3
 #: framework/premium/extensions/sidebars/static/js/main.js:42
@@ -1776,7 +1776,7 @@ msgstr ""
 #: framework/premium/extensions/sidebars/form.php:16
 #: framework/premium/extensions/sidebars/static/js/main.js:58
 msgid "Create Sidebar"
-msgstr ""
+msgstr "Creare Sidebar"
 
 #: framework/premium/extensions/sidebars/form.php:20
 msgid "Available Sidebars/Widget Areas"
@@ -1800,15 +1800,15 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/customizer.php:29
 msgid "Button click"
-msgstr ""
+msgstr "Click Bottone"
 
 #: framework/premium/extensions/woocommerce-extra/customizer.php:30
 msgid "Image click"
-msgstr ""
+msgstr "Click Immagine"
 
 #: framework/premium/extensions/woocommerce-extra/customizer.php:31
 msgid "Card click"
-msgstr ""
+msgstr "Click Card"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:91,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:196,
@@ -1830,11 +1830,11 @@ msgstr "Tipo 4"
 #: framework/premium/extensions/woocommerce-extra/extension.php:119,
 #: framework/premium/extensions/woocommerce-extra/extension.php:138
 msgid "Number of Columns"
-msgstr ""
+msgstr "Numero di Colonne"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:739
 msgid "Available Filters"
-msgstr ""
+msgstr "Filtri Disponibili"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:833
 msgid "Quick view title before"
@@ -1863,17 +1863,17 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:4,
 #: framework/premium/extensions/woocommerce-extra/readme.php:25
 msgid "Floating Cart"
-msgstr ""
+msgstr "Floating Cart"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:17
 msgid "Position"
-msgstr ""
+msgstr "Posizione"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:24,
 #: framework/premium/features/content-blocks/hooks-manager.php:407,
 #: framework/premium/features/content-blocks/options/hook.php:306
 msgid "Top"
-msgstr ""
+msgstr "Top"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:34
 msgid "Product Title Visibility"
@@ -1885,23 +1885,23 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/helpers.php:106
 msgid "Go to product page"
-msgstr ""
+msgstr "Vai alla pagina prodotto"
 
 #: framework/premium/extensions/woocommerce-extra/helpers.php:191
 msgid "Filter"
-msgstr ""
+msgstr "Filtro"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:3
 msgid "Off Canvas Filter"
-msgstr ""
+msgstr "Filtro Off Canvas"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:14
 msgid "Filter Widgets"
-msgstr ""
+msgstr "Filtri Widget"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:18
 msgid "Widgets"
-msgstr ""
+msgstr "Widgets"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:36
 msgid "Widgets Vertical Spacing"
@@ -1909,33 +1909,33 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:51
 msgid "Widgets Title Font"
-msgstr ""
+msgstr "Font Titoli Widget"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:59
 msgid "Widgets Title Font Color"
-msgstr ""
+msgstr "Colore Font Titolo Widgets"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:107
 msgid "Widgets Font"
-msgstr ""
+msgstr "Font dei Widget"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:116
 msgid "Widgets Font Color"
-msgstr ""
+msgstr "Colore Font dei Widget"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:138,
 #: framework/premium/features/premium-header/items/contacts/options.php:472,
 #: framework/premium/features/premium-header/items/contacts/options.php:515,
 #: framework/premium/features/premium-header/items/contacts/options.php:555
 msgid "Text Initial"
-msgstr ""
+msgstr "Testo Iniziale"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:149,
 #: framework/premium/features/premium-header/items/contacts/options.php:484,
 #: framework/premium/features/premium-header/items/contacts/options.php:525,
 #: framework/premium/features/premium-header/items/contacts/options.php:565
 msgid "Link Hover"
-msgstr ""
+msgstr "Link Hover"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:160
 msgid "Filter Button & Panel"
@@ -1947,31 +1947,31 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:207
 msgid "Filter Button Visibility"
-msgstr ""
+msgstr "Visibilità Filtro Bottone"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:230
 msgid "Panel Reveal"
-msgstr ""
+msgstr "Rivela Pannello"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:237
 msgid "Left Side"
-msgstr ""
+msgstr "Lato Sinistro"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:238
 msgid "Right Side"
-msgstr ""
+msgstr "Lato Desctro"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:243
 msgid "Panel Width"
-msgstr ""
+msgstr "Larghezza Pannello"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:316
 msgid "Panel Shadow"
-msgstr ""
+msgstr "Ombra Pannello"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:284
 msgid "Panel Background"
-msgstr ""
+msgstr "Background Pannello"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:4
 msgid "After installing and activating the WooCommerce Extra extension you will have these features:"
@@ -2019,82 +2019,82 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:11
 msgid "WP head"
-msgstr ""
+msgstr "WP head"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:13,
 #: framework/premium/features/content-blocks/hooks-manager.php:22,
 #: framework/premium/features/content-blocks/hooks-manager.php:32,
 #: framework/premium/features/content-blocks/hooks-manager.php:41
 msgid "Head"
-msgstr ""
+msgstr "Head"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:20
 msgid "WP head start"
-msgstr ""
+msgstr "Inizio WP head"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:30
 msgid "WP head end"
-msgstr ""
+msgstr "fine WP head"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:48
 msgid "Header before"
-msgstr ""
+msgstr "Prima dell'Header"
 
 #: framework/premium/features/content-blocks/admin-ui.php:123,
 #: framework/premium/features/content-blocks/hooks-manager.php:50,
 #: framework/premium/features/content-blocks/hooks-manager.php:59
 msgid "Header"
-msgstr ""
+msgstr "Header"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:57
 msgid "Header after"
-msgstr ""
+msgstr "Dopo Header"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:66
 msgid "Desktop top"
-msgstr ""
+msgstr "Desktop top"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:68,
 #: framework/premium/features/content-blocks/hooks-manager.php:77,
 #: framework/premium/features/content-blocks/hooks-manager.php:86,
 #: framework/premium/features/content-blocks/hooks-manager.php:95
 msgid "Header offcanvas"
-msgstr ""
+msgstr "Header offcanvas"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:75
 msgid "Desktop bottom"
-msgstr ""
+msgstr "Fondo Bottom"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:84
 msgid "Mobile top"
-msgstr ""
+msgstr "Mobile top"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:93
 msgid "Mobile bottom"
-msgstr ""
+msgstr "Mobile bottom"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:102
 msgid "Sidebar before"
-msgstr ""
+msgstr "Prima della Sidebar"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:103,
 #: framework/premium/features/content-blocks/hooks-manager.php:110,
 #: framework/premium/features/content-blocks/hooks-manager.php:117,
 #: framework/premium/features/content-blocks/hooks-manager.php:124
 msgid "Left/Right sidebar"
-msgstr ""
+msgstr "Sidebar sinistra/destra"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:109
 msgid "Sidebar start"
-msgstr ""
+msgstr "inizio Sidebar"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:116
 msgid "Sidebar end"
-msgstr ""
+msgstr "Fine sidebar"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:123
 msgid "Sidebar after"
-msgstr ""
+msgstr "Dopo il Sidebar"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:130
 msgid "Dynamic sidebar before"
@@ -2104,11 +2104,11 @@ msgstr ""
 #: framework/premium/features/content-blocks/hooks-manager.php:138,
 #: framework/premium/features/content-blocks/hooks-manager.php:146
 msgid "All widget areas"
-msgstr ""
+msgstr "Tutte le aree Widget"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:137
 msgid "Dynamic sidebar"
-msgstr ""
+msgstr "Sidebar Dinamica"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:145
 msgid "Dynamic sidebar after"
@@ -2171,11 +2171,11 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:258
 msgid "After content"
-msgstr ""
+msgstr "Dopo il contenuto"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:266
 msgid "Before comments"
-msgstr ""
+msgstr "Prima dei Commenti"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:267,
 #: framework/premium/features/content-blocks/hooks-manager.php:274,
@@ -2184,7 +2184,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/hooks-manager.php:295,
 #: framework/premium/features/content-blocks/hooks-manager.php:302
 msgid "Comments"
-msgstr ""
+msgstr "Commenti"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:273
 msgid "Top comments"
@@ -2201,42 +2201,42 @@ msgstr ""
 #: framework/premium/features/content-blocks/hooks-manager.php:379,
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:459
 msgid "Before"
-msgstr ""
+msgstr "Prima"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:380,
 #: framework/premium/features/content-blocks/hooks-manager.php:387
 msgid "Loop"
-msgstr ""
+msgstr "Loop"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:386,
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:470
 msgid "After"
-msgstr ""
+msgstr "Dopo"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:393
 msgid "Start"
-msgstr ""
+msgstr "Inizio"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:394,
 #: framework/premium/features/content-blocks/hooks-manager.php:401
 msgid "Loop card"
-msgstr ""
+msgstr "Loop card"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:400
 msgid "End"
-msgstr ""
+msgstr "Fine"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:423
 msgid "After certain number of blocks"
-msgstr ""
+msgstr "Dopo un certo numero di blocchi"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:430
 msgid "Before certain number of headings"
-msgstr ""
+msgstr "Prima di un certo numero di headings"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:453
 msgid "Login form start"
-msgstr ""
+msgstr "Login dall'inizio"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:454,
 #: framework/premium/features/content-blocks/hooks-manager.php:461,
@@ -2297,15 +2297,15 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:545
 msgid "WooCommerce Global"
-msgstr ""
+msgstr "WooCommerce Globale"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:550
 msgid "Archive description"
-msgstr ""
+msgstr "Descrizione Archivio"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:555
 msgid "Before shop loop"
-msgstr ""
+msgstr "Prima dello shop loop"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:572
 msgid "Before shop loop item title"
@@ -2329,31 +2329,31 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:604
 msgid "WooCommerce Archive"
-msgstr ""
+msgstr "Archivio WooCommerce"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:609
 msgid "Before single product"
-msgstr ""
+msgstr "Prima del singolo prodotto"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:627
 msgid "Product meta start"
-msgstr ""
+msgstr "Inizio Meta Prodotto"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:631
 msgid "Product meta end"
-msgstr ""
+msgstr "Fine Meta Prodotto"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:635
 msgid "Share"
-msgstr ""
+msgstr "Share"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:639
 msgid "After single product"
-msgstr ""
+msgstr "Dopo il prodotto singolo"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:645
 msgid "Before single product excerpt"
-msgstr ""
+msgstr "Prima del riassunto del singolo prodotto"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:650
 msgid "After single product excerpt"
@@ -2397,11 +2397,11 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:694
 msgid "Cart coupon"
-msgstr ""
+msgstr "Coupon Carrello"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:698
 msgid "Cart actions"
-msgstr ""
+msgstr "Azioni Carrello"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:702
 msgid "After cart table"
@@ -2433,11 +2433,11 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:730
 msgid "After cart"
-msgstr ""
+msgstr "Dopo il carrello"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:735
 msgid "Before Mini Cart"
-msgstr ""
+msgstr "Prima del Mini Carrello"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:740
 msgid "Before Mini Cart Contents"
@@ -2489,15 +2489,15 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:792
 msgid "Before order notes"
-msgstr ""
+msgstr "Prima delle note dell'ordine"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:796
 msgid "After order notes"
-msgstr ""
+msgstr "Dopo le note dell'ordine"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:800
 msgid "Checkout shipping"
-msgstr ""
+msgstr "Checkout spedizione"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:804
 msgid "Checkout before order review"
@@ -2561,52 +2561,52 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/hooks-manager.php:865
 msgid "Account navigation"
-msgstr ""
+msgstr "Navigazione Account"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:869
 msgid "After account navigation"
-msgstr ""
+msgstr "Dopo navigazione account"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:873
 msgid "Account content"
-msgstr ""
+msgstr "Contenuto Account"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:877
 msgid "Account dashboard"
-msgstr ""
+msgstr "Dashboard Account "
 
 #: framework/premium/features/content-blocks/hooks-manager.php:881
 msgid "After my account"
-msgstr ""
+msgstr "Dopo il mio Account"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:883,
 #: framework/features/header/items/account/options.php:17,
 #: framework/features/header/items/account/options.php:18
 msgid "WooCommerce Account"
-msgstr ""
+msgstr "Account WooCommerce"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:889
 msgid "WP footer"
-msgstr ""
+msgstr "WP footer"
 
 #: framework/premium/features/content-blocks/admin-ui.php:124,
 #: framework/premium/features/content-blocks/hooks-manager.php:890,
 #: framework/premium/features/content-blocks/hooks-manager.php:898,
 #: framework/premium/features/content-blocks/hooks-manager.php:906
 msgid "Footer"
-msgstr ""
+msgstr "Footer"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:897
 msgid "Footer before"
-msgstr ""
+msgstr "Prima del Footer"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:905
 msgid "Footer after"
-msgstr ""
+msgstr "Dopo il Footer"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:920
 msgid "Custom Hook (%s)"
-msgstr ""
+msgstr "Custom Hook (%s)"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:926,
 #: framework/premium/features/content-blocks/options/hook.php:197
@@ -2770,18 +2770,18 @@ msgstr "Sito web:"
 #: framework/extensions/widgets/widgets/ct-socials/options.php:99,
 #: framework/premium/features/content-blocks/options/archive.php:46
 msgid "Small"
-msgstr ""
+msgstr "Piccolo"
 
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:498,
 #: framework/extensions/widgets/widgets/ct-socials/options.php:101
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:503,
 #: framework/extensions/widgets/widgets/ct-socials/options.php:106,
 #: framework/premium/features/premium-header/items/contacts/options.php:331
 msgid "Icons Shape Type"
-msgstr ""
+msgstr "Tipo di forma Icone"
 
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:511,
 #: framework/extensions/widgets/widgets/ct-socials/options.php:114,
@@ -2793,7 +2793,7 @@ msgstr ""
 #: framework/extensions/widgets/widgets/ct-socials/options.php:115,
 #: framework/premium/features/premium-header/items/contacts/options.php:340
 msgid "Square"
-msgstr ""
+msgstr "Squadrato"
 
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:522,
 #: framework/extensions/widgets/widgets/ct-socials/options.php:125,
@@ -2805,7 +2805,7 @@ msgstr ""
 #: framework/extensions/widgets/widgets/ct-socials/options.php:132,
 #: framework/premium/features/premium-header/items/contacts/options.php:358
 msgid "Solid"
-msgstr ""
+msgstr "Intero"
 
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:530,
 #: framework/extensions/widgets/widgets/ct-socials/options.php:133,
@@ -2819,15 +2819,15 @@ msgstr "Informazioni di contatto"
 
 #: framework/extensions/widgets/widgets/ct-facebook/options.php:22
 msgid "Page URL"
-msgstr ""
+msgstr "URL Pagina"
 
 #: framework/extensions/widgets/widgets/ct-facebook/options.php:30
 msgid "Profile Photos"
-msgstr ""
+msgstr "Foto Profilo"
 
 #: framework/extensions/widgets/widgets/ct-facebook/options.php:37
 msgid "Timeline"
-msgstr ""
+msgstr "Timeline"
 
 #: framework/extensions/widgets/widgets/ct-facebook/options.php:44
 msgid "Cover Photo"
@@ -2835,11 +2835,11 @@ msgstr ""
 
 #: framework/extensions/widgets/widgets/ct-facebook/options.php:51
 msgid "Small Header"
-msgstr ""
+msgstr "Header Piccolo"
 
 #: framework/extensions/widgets/widgets/ct-facebook/widget.php:14
 msgid "Facebook like box"
-msgstr ""
+msgstr "Boz like Facebook"
 
 #: framework/extensions/widgets/widgets/ct-posts/options.php:103
 msgid "Widget Design"
@@ -2949,11 +2949,11 @@ msgstr "Lunghezza del riassunto"
 
 #: framework/extensions/widgets/widgets/ct-posts/view.php:220
 msgid "1 Comment"
-msgstr ""
+msgstr "1 Commento"
 
 #: framework/extensions/widgets/widgets/ct-posts/view.php:220
 msgid "% Comments"
-msgstr ""
+msgstr "% Commenti"
 
 #: framework/extensions/widgets/widgets/ct-quote/options.php:18,
 #: framework/extensions/widgets/widgets/ct-quote/view.php:12,
@@ -2964,7 +2964,7 @@ msgstr "Citazione"
 
 #: framework/extensions/widgets/widgets/ct-quote/options.php:46
 msgid "Author Name"
-msgstr ""
+msgstr "Nome Autore"
 
 #: framework/extensions/widgets/widgets/ct-quote/options.php:49,
 #: framework/extensions/widgets/widgets/ct-quote/view.php:18
@@ -3216,7 +3216,7 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/includes/filtering.php:286
 msgid "All"
-msgstr ""
+msgstr "Tutti"
 
 #: framework/premium/extensions/post-types-extra/includes/taxonomies-options.php:161
 msgid "Featured Image"
@@ -3234,15 +3234,15 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-helpers.php:46,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-helpers.php:54
 msgid "Add to wishlist"
-msgstr ""
+msgstr "Aggiungi alla Wish List"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:9
 msgid "Select a page"
-msgstr ""
+msgstr "Seleziona una pagina"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:18
 msgid "Products Wishlist"
-msgstr ""
+msgstr "Whis List Prodotti"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:28
 msgid "Show Wishlist Page To"
@@ -3250,15 +3250,15 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:34
 msgid "Logged Users"
-msgstr ""
+msgstr "Utenti Loggati"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:35
 msgid "All Users"
-msgstr ""
+msgstr "Tutti gli Utenti"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:45
 msgid "Wish List Page"
-msgstr ""
+msgstr "Pagina Wish List"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:51
 msgid "The page you select here will display the wish list for your logged out users."
@@ -3314,12 +3314,12 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:35
 msgid "Add to cart"
-msgstr ""
+msgstr "Aggiungi al carrello"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:128,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:152
 msgid "Remove Product"
-msgstr ""
+msgstr "Rimuovi Prodotto"
 
 #: framework/premium/extensions/woocommerce-extra/includes/woo-import-export.php:34
 msgid "Blocksy Variation Images"
@@ -3330,7 +3330,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/hook.php:40,
 #: framework/premium/features/content-blocks/options/popup.php:42
 msgid "Container Structure"
-msgstr ""
+msgstr "Struttura Container"
 
 #: framework/premium/features/content-blocks/options/404.php:65,
 #: framework/premium/features/content-blocks/options/header.php:63,
@@ -3342,7 +3342,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/header.php:68,
 #: framework/premium/features/content-blocks/options/hook.php:73
 msgid "Normal Width"
-msgstr ""
+msgstr "Larghezza Normale"
 
 #: framework/premium/features/content-blocks/options/404.php:76,
 #: framework/premium/features/content-blocks/options/archive.php:126,
@@ -3391,7 +3391,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/hook.php:181
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:72
 msgid "Custom Hook"
-msgstr ""
+msgstr "Custom Hook"
 
 #: framework/premium/features/content-blocks/options/archive.php:207,
 #: framework/premium/features/content-blocks/options/hook.php:256,
@@ -3418,35 +3418,35 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:57
 msgid "Popup Size"
-msgstr ""
+msgstr "Dimensione Popup"
 
 #: framework/premium/features/content-blocks/options/popup.php:63
 msgid "Small Size"
-msgstr ""
+msgstr "Dimensione Small"
 
 #: framework/premium/features/content-blocks/options/popup.php:64
 msgid "Medium Size"
-msgstr ""
+msgstr "Dimensione Medium"
 
 #: framework/premium/features/content-blocks/options/popup.php:65
 msgid "Large Size"
-msgstr ""
+msgstr "Dimensione Large"
 
 #: framework/premium/features/content-blocks/options/popup.php:66
 msgid "Custom Size"
-msgstr ""
+msgstr "Dimensione Custom"
 
 #: framework/premium/features/content-blocks/options/popup.php:76
 msgid "Max Width"
-msgstr ""
+msgstr "Larghezza Massima"
 
 #: framework/premium/features/content-blocks/options/popup.php:92
 msgid "Max Height"
-msgstr ""
+msgstr "Altezza Massima"
 
 #: framework/premium/features/content-blocks/options/popup.php:111
 msgid "Popup Animation"
-msgstr ""
+msgstr "Animazione Popup"
 
 #: framework/premium/features/content-blocks/options/popup.php:117
 msgid "Fade in fade out"
@@ -3494,19 +3494,19 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:200
 msgid "Scroll Direction"
-msgstr ""
+msgstr "Direzione Scroll"
 
 #: framework/premium/features/content-blocks/options/popup.php:205
 msgid "Scroll Down"
-msgstr ""
+msgstr "Scroll Giù"
 
 #: framework/premium/features/content-blocks/options/popup.php:206
 msgid "Scroll Up"
-msgstr ""
+msgstr "Scroll Su"
 
 #: framework/premium/features/content-blocks/options/popup.php:211
 msgid "Scroll Distance"
-msgstr ""
+msgstr "Distanza Scroll"
 
 #: framework/premium/features/content-blocks/options/popup.php:221
 msgid "Set the scroll distance till the popup block will appear."
@@ -3514,7 +3514,7 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:233
 msgid "Inactivity Time"
-msgstr ""
+msgstr "Tempo di Inattività"
 
 #: framework/premium/features/content-blocks/options/popup.php:239
 msgid "Set the inactivity time (in seconds) till the popup block will appear."
@@ -3538,17 +3538,17 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:366
 msgid "Padding"
-msgstr ""
+msgstr "Padding"
 
 #: framework/premium/features/content-blocks/options/popup.php:376,
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:266,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:474
 msgid "Border Radius"
-msgstr ""
+msgstr "Raggio Bordo"
 
 #: framework/premium/features/content-blocks/options/popup.php:405
 msgid "Popup Offset"
-msgstr ""
+msgstr "Offset Popup"
 
 #: framework/premium/features/content-blocks/options/popup.php:415
 msgid "Container Overflow"
@@ -3556,15 +3556,15 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:422
 msgid "Hidden"
-msgstr ""
+msgstr "Nascosto"
 
 #: framework/premium/features/content-blocks/options/popup.php:423
 msgid "Visible"
-msgstr ""
+msgstr "Visibile"
 
 #: framework/premium/features/content-blocks/options/popup.php:424
 msgid "Scroll"
-msgstr ""
+msgstr "Scroll"
 
 #: framework/premium/features/content-blocks/options/popup.php:426
 msgid "Control what happens to the content that is too big to fit into the popup."
@@ -3572,19 +3572,19 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:430
 msgid "Close Button"
-msgstr ""
+msgstr "Chiudi Bottone"
 
 #: framework/premium/features/content-blocks/options/popup.php:438
 msgid "Inside"
-msgstr ""
+msgstr "Dentro"
 
 #: framework/premium/features/content-blocks/options/popup.php:439
 msgid "Outside"
-msgstr ""
+msgstr "Fuori"
 
 #: framework/premium/features/content-blocks/options/popup.php:513
 msgid "Popup Background"
-msgstr ""
+msgstr "Background Popup"
 
 #: framework/premium/features/content-blocks/options/popup.php:527
 msgid "Popup Backdrop Background"
@@ -3592,28 +3592,28 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:25
 msgid "Posts Filter"
-msgstr ""
+msgstr "Filtro Post"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:60
 msgid "Filtering Behavior"
-msgstr ""
+msgstr "Filtraggio Comportamento"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:68
 msgid "Instant Reload"
-msgstr ""
+msgstr "Ricarica immediata"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:69
 msgid "Page Reload"
-msgstr ""
+msgstr "Ricarica Pagina"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:92
 msgid "Items Horizontal Spacing"
-msgstr ""
+msgstr "Spaziatura Orizzontale Oggetti"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:104,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:369
 msgid "Items Vertical Spacing"
-msgstr ""
+msgstr "Spaziatura Verticale Oggetti"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:116
 msgid "Container Bottom Spacing"
@@ -3645,11 +3645,11 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/includes/read-progress/customizer.php:71
 msgid "Main Color"
-msgstr ""
+msgstr "Colore Principale"
 
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:84
 msgid "Icon Badge"
-msgstr ""
+msgstr "Icona Badge"
 
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:178
 msgid "Label Font Color"
@@ -3657,7 +3657,7 @@ msgstr ""
 
 #: framework/premium/features/premium-header/items/contacts/config.php:4
 msgid "Contacts"
-msgstr ""
+msgstr "Contatti"
 
 #: framework/premium/features/premium-header/items/contacts/options.php:300
 msgid "Open Links In New Tab"
@@ -3674,19 +3674,19 @@ msgstr ""
 #: framework/premium/features/premium-header/items/language-switcher/options.php:323,
 #: framework/premium/features/premium-header/items/search-input/options.php:734
 msgid "Margin"
-msgstr ""
+msgstr "Margine"
 
 #: framework/premium/features/premium-header/items/dark-mode-switcher/config.php:5
 msgid "Dark Mode"
-msgstr ""
+msgstr "Dark Mode"
 
 #: framework/premium/features/premium-header/items/divider/config.php:4
 msgid "Divider"
-msgstr ""
+msgstr "Divisore"
 
 #: framework/premium/features/premium-header/items/divider/options.php:6
 msgid "Size"
-msgstr ""
+msgstr "Dimensione"
 
 #: framework/features/conditions-manager.php:822,
 #: framework/premium/features/premium-header/items/language-switcher/config.php:14
@@ -3695,39 +3695,39 @@ msgstr "Lingue"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:17
 msgid "Top Level Options"
-msgstr ""
+msgstr "Opzioni Top Level"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:37
 msgid "Dropdown"
-msgstr ""
+msgstr "Dropdown"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:47
 msgid "Display"
-msgstr ""
+msgstr "Display"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:59
 msgid "Flag"
-msgstr ""
+msgstr "Flag"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:73
 msgid "Label Style"
-msgstr ""
+msgstr "Stile Label"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:79
 msgid "Long"
-msgstr ""
+msgstr "Lungo"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:80
 msgid "Short"
-msgstr ""
+msgstr "Corto"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:112
 msgid "Hide Current Language"
-msgstr ""
+msgstr "Nascondi Lingua Corrente"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:343
 msgid "Dropdown Options"
-msgstr ""
+msgstr "Opzioni Dropdown"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:361
 msgid "Dropdown Top Offset"
@@ -3735,11 +3735,11 @@ msgstr ""
 
 #: framework/premium/features/premium-header/items/search-input/config.php:4
 msgid "Search Box"
-msgstr ""
+msgstr "Search Box"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:42
 msgid "Placeholder Text"
-msgstr ""
+msgstr "Testo Placeholder"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:52
 msgid "Input Maximum Width"
@@ -3892,11 +3892,11 @@ msgstr ""
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:141
 msgid "Project ID"
-msgstr ""
+msgstr "ID Progetto"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:188
 msgid "Fetch Fonts"
-msgstr ""
+msgstr "Recupera Fonts"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:195
 msgid "Please enter the valid Project ID to get the kit details"
@@ -3905,16 +3905,16 @@ msgstr ""
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:214
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:56
 msgid "Variations"
-msgstr ""
+msgstr "Variazioni"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:96
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:94
 msgid "Edit Settings"
-msgstr ""
+msgstr "Modifica Settings"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:98
 msgid "Add/Edit Fonts"
-msgstr ""
+msgstr "Aggiungi/Modifica Fonts"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:104
 msgid "There are no custom fonts at the moment, hit the button below and upload some."
@@ -3923,16 +3923,16 @@ msgstr ""
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:117
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:271
 msgid "Upload Simple Font"
-msgstr ""
+msgstr "Carica Font Semplice"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:125
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:295
 msgid "Upload Variable Font"
-msgstr ""
+msgstr "Carica Font Variabile"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:23
 msgid "Custom Fonts Settings"
-msgstr ""
+msgstr "Impostazioni Font Personalizzati"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:25
 msgid "Here you can see all your custom fonts that could be used in all typography options across the theme."
@@ -3940,31 +3940,31 @@ msgstr ""
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:39
 msgid "Dynamic Font"
-msgstr ""
+msgstr "Font Dinamico"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:43
 msgid "Variable font"
-msgstr ""
+msgstr "Font Variabile"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:74
 msgid "Edit Font"
-msgstr ""
+msgstr "Modifica Font"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:91
 msgid "Remove Font"
-msgstr ""
+msgstr "Rimuovi Font"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/EditSettings.js:79
 msgid "Settings"
-msgstr ""
+msgstr "Settings"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:162
 msgid "Change"
-msgstr ""
+msgstr "Cambia"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:163
 msgid "Choose"
-msgstr ""
+msgstr "Scegli"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:174
 #: static/js/options/ConditionsManager.js:100
@@ -3973,12 +3973,12 @@ msgstr "Seleziona variazione"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:194
 msgid "Regular"
-msgstr ""
+msgstr "Regolare"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:201
 #: framework/premium/static/js/typography/providers/kadence.js:71
 msgid "Italic"
-msgstr ""
+msgstr "Corsivo"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:275
 msgid "Upload only the %s.woff2%s or %s.ttf%s font file formats (see browser coverage %shere%s). Use %sthis converter tool%s if you don't have these font formats."
@@ -3990,7 +3990,7 @@ msgstr ""
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:325
 msgid "Font Name"
-msgstr ""
+msgstr "Nome Font"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:368
 msgid "Add/upload another font variation"
@@ -3998,15 +3998,15 @@ msgstr ""
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:389
 msgid "Back to All Fonts"
-msgstr ""
+msgstr "Indietro a Tutti i Font"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:414
 msgid "Save Custom Font"
-msgstr ""
+msgstr "Salva Font Personalizzato"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:82
 msgid "Add Variation"
-msgstr ""
+msgstr "Aggiungi Variazione"
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:190
 msgid "By checking this option you will download and replace the existing Google Fonts with the above ones."
@@ -4018,11 +4018,11 @@ msgstr ""
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:98
 msgid "Add Google Fonts"
-msgstr ""
+msgstr "Aggiungi Google Fonts"
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:108
 msgid "Local Google Fonts (GDPR)"
-msgstr ""
+msgstr "Google Fonts in Locale (GDPR)"
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:115
 msgid "Download a font and serve it directly from your server, this is handy for those who want to comply with GDPR regulations or serve the font via CDN."
@@ -4030,11 +4030,11 @@ msgstr ""
 
 #: framework/premium/extensions/mega-menu/static/js/SettingsManager.js:138
 msgid "Item Settings"
-msgstr ""
+msgstr "Impostazioni Item"
 
 #: framework/premium/extensions/sidebars/static/js/BlockWidgetControls.js:59
 msgid "Remove Sidebar"
-msgstr ""
+msgstr "Rimuovi Sidebar"
 
 #: framework/premium/extensions/sidebars/static/js/SettingsManager.js:64
 msgid "%s - Sidebar Display Conditions"
@@ -4050,11 +4050,11 @@ msgstr ""
 
 #: framework/premium/extensions/sidebars/static/js/main.js:52
 msgid "Sidebar name"
-msgstr ""
+msgstr "Nome Sidebar"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:106
 msgid "White Label Settings"
-msgstr ""
+msgstr "Impostazioni White Label"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:110
 msgid "Remove any link that points to Blocksy website and change the dashboard identity. These options are mostly used by agencies and developers who are building websites for clients."
@@ -4062,47 +4062,47 @@ msgstr ""
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:132
 msgid "Advanced"
-msgstr ""
+msgstr "Avanzato"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:147
 msgid "Agency Details"
-msgstr ""
+msgstr "Dettagli Agenzia"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:155
 msgid "Agency Name"
-msgstr ""
+msgstr "Nome Agenzia"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:186
 msgid "Agency URL"
-msgstr ""
+msgstr "URL Agenzia"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:217
 msgid "Agency Support/Contact Form URL"
-msgstr ""
+msgstr "Supporto Agenzia/URL Form Contatto"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:252
 msgid "Theme Details"
-msgstr ""
+msgstr "Dettagli Tema"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:260
 msgid "Theme Name"
-msgstr ""
+msgstr "Nome Tema"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:291
 msgid "Theme Description"
-msgstr ""
+msgstr "Descrizione Tema"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:322
 msgid "Theme Screenshot URL"
-msgstr ""
+msgstr "URL Screenshot Tema"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:419
 msgid "You can insert the link to a self hosted image or upload one. The recommended image size is 1200px wide by 900px tall."
-msgstr ""
+msgstr "Si può inserire il link ad una immagine hostata o caricarne una. La dimensione raccomandata dell'immagine è larga 1200px ed alta 900px."
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:429
 msgid "Theme Icon URL"
-msgstr ""
+msgstr "URL Icona Tema"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:526
 msgid "You can insert the link to a self hosted image or upload one. The recommended image size is 18px wide by 18px tall."
@@ -4174,7 +4174,7 @@ msgstr ""
 
 #: framework/premium/static/js/components/BetaConsent.js:54
 msgid "Receive βeta Updates"
-msgstr ""
+msgstr "Ricevi βeta Updates"
 
 #: framework/premium/static/js/components/BetaConsent.js:60
 msgid "Receive beta updates and help us test the new features and improve them by submitting feedback. Please note, installing beta versions on production websites is not recommended, test them on staging or localhost environments."
@@ -4182,7 +4182,7 @@ msgstr ""
 
 #: framework/premium/static/js/components/BetaConsent.js:73
 msgid "Are you sure?"
-msgstr ""
+msgstr "Sei sicuro?"
 
 #: framework/premium/static/js/components/BetaConsent.js:76
 msgid "Installing beta updates on your production site can give unexpected results."
@@ -4195,44 +4195,44 @@ msgstr ""
 #: framework/premium/static/js/footer/CloneItem.js:65
 #: framework/premium/static/js/header/CloneItem.js:65
 msgid "Clone Item"
-msgstr ""
+msgstr "Clona Item"
 
 #: framework/premium/static/js/footer/CloneItem.js:88
 #: framework/premium/static/js/header/CloneItem.js:88
 msgid "Remove Item"
-msgstr ""
+msgstr "Rimuovi Item"
 
 #: framework/premium/static/js/footer/CreateFooter.js:107
 #: framework/premium/static/js/header/CreateHeader.js:106
 msgid "Copy elements & styles from"
-msgstr ""
+msgstr "Copia elementi & stile da"
 
 #: framework/premium/static/js/footer/CreateFooter.js:118
 msgid "Picker Footer"
-msgstr ""
+msgstr "Picker Footer"
 
 #: framework/premium/static/js/footer/CreateFooter.js:133
 #: framework/premium/static/js/footer/PanelsManager.js:52
 msgid "Global Footer"
-msgstr ""
+msgstr "Footer Globale"
 
 #: framework/premium/static/js/footer/CreateFooter.js:137
 #: framework/premium/static/js/header/CreateHeader.js:138
 msgid "Secondary"
-msgstr ""
+msgstr "Secondario"
 
 #: framework/premium/static/js/footer/CreateFooter.js:141
 #: framework/premium/static/js/header/CreateHeader.js:142
 msgid "Centered"
-msgstr ""
+msgstr "Centrato"
 
 #: framework/premium/static/js/footer/CreateFooter.js:172
 msgid "Create New Footer"
-msgstr ""
+msgstr "Creare Nuovo Footer"
 
 #: framework/premium/static/js/footer/CreateFooter.js:50
 msgid "Create new footer"
-msgstr ""
+msgstr "Creare nuovo footer"
 
 #: framework/premium/static/js/footer/CreateFooter.js:53
 msgid "Create a new footer and assign it to different pages or posts based on your conditions."
@@ -4254,15 +4254,15 @@ msgstr "Aggiungi/modifica condizioni"
 
 #: framework/premium/static/js/footer/PanelsManager.js:162
 msgid "Remove footer"
-msgstr ""
+msgstr "Rimuovi footer"
 
 #: framework/premium/static/js/footer/PanelsManager.js:192
 msgid "Remove Footer"
-msgstr ""
+msgstr "Rimuovi Footer"
 
 #: framework/premium/static/js/footer/PanelsManager.js:195
 msgid "You are about to remove a custom footer, are you sure you want to continue?"
-msgstr ""
+msgstr "Stai rimuovendo un footer personalizzato, sei sicuro di voler contuinuare?"
 
 #: framework/premium/static/js/footer/PanelsManager.js:211
 #: framework/premium/static/js/hooks/CodeEditor.js:203
@@ -4274,7 +4274,7 @@ msgstr "Annulla"
 #: framework/premium/static/js/footer/PanelsManager.js:227
 #: static/js/header/PanelsManager.js:232
 msgid "Confirm"
-msgstr ""
+msgstr "Conferma"
 
 #: framework/premium/static/js/footer/PanelsManager.js:68
 #: static/js/header/PanelsManager.js:74
@@ -4284,7 +4284,7 @@ msgstr "Modifica condizioni"
 #. translators: %s: PHP version
 #: blocksy-companion.php:159
 msgid "Blocksy requires PHP version %s+, plugin is currently NOT RUNNING."
-msgstr ""
+msgstr "Blocksy richiede la versione PHP %s+,il plugin al momento NON FUNZIONA."
 
 #. translators: %s: WordPress version
 #: blocksy-companion.php:170
@@ -4298,12 +4298,12 @@ msgstr ""
 
 #: framework/extensions-manager.php:246
 msgid "Connect your Typekit account and use your fonts in any typography option."
-msgstr ""
+msgstr "Connetti il tuo account Typekir e usa i tuoi fonts in ogni opzione tipografica."
 
 #: framework/extensions-manager.php:257,
 #: framework/premium/extensions/code-snippets/readme.php:38
 msgid "Custom Code Snippets"
-msgstr ""
+msgstr "Snippets di codice personalizzato"
 
 #: framework/extensions-manager.php:258
 msgid "Add custom code snippets in your header and footer, globally and per post or page individually."
@@ -4321,7 +4321,7 @@ msgstr ""
 #: framework/extensions-manager.php:281,
 #: framework/premium/extensions/local-google-fonts/extension.php:188
 msgid "Local Google Fonts"
-msgstr ""
+msgstr "Google Fonts in Locale"
 
 #: framework/extensions-manager.php:282
 msgid "Serve Google Fonts from your own server for full GDPR compliancy."
@@ -4329,7 +4329,7 @@ msgstr ""
 
 #: framework/extensions-manager.php:293
 msgid "Advanced Menu"
-msgstr ""
+msgstr "Menù avanzato"
 
 #: framework/extensions-manager.php:294
 msgid "Create beautiful mega menus, assign icons add badges to menu items, and content blocks inside menu items."
@@ -4444,11 +4444,11 @@ msgstr "Controlla la tua email"
 
 #: framework/features/account-auth.php:256
 msgid "Registration Form"
-msgstr ""
+msgstr "Form Registrazione"
 
 #: framework/features/account-auth.php:257
 msgid "Register For This Site"
-msgstr ""
+msgstr "Registrati in questo Sito"
 
 #: framework/widgets-manager.php:75
 msgid "Default widget name"
@@ -4456,7 +4456,7 @@ msgstr "Nome predefinito del widget"
 
 #: framework/widgets-manager.php:81
 msgid "Display online support infomation"
-msgstr ""
+msgstr "Mostra le informazioni per il supporto online"
 
 #: framework/widgets-manager.php:154
 msgid "Widget Title"
@@ -4464,7 +4464,7 @@ msgstr "Titolo del widget"
 
 #: framework/features/conditions-manager.php:631
 msgid "%s Single"
-msgstr ""
+msgstr "%s Singolo"
 
 #: framework/features/conditions-manager.php:641
 msgid "%s Archive"
@@ -4472,7 +4472,7 @@ msgstr "Archivio %s"
 
 #: framework/features/conditions-manager.php:654
 msgid "%s %s Taxonomy"
-msgstr ""
+msgstr "%s %s Tassonomia"
 
 #: framework/features/conditions-manager.php:496
 msgid "Entire Website"
@@ -4482,12 +4482,12 @@ msgstr "Intero sito web"
 #: framework/features/conditions-manager.php:546,
 #: framework/features/conditions-manager.php:578
 msgid "Basic"
-msgstr ""
+msgstr "Basico"
 
 #: framework/features/conditions-manager.php:508,
 #: framework/features/conditions-manager.php:582
 msgid "Singulars"
-msgstr ""
+msgstr "Singolari"
 
 #: framework/features/conditions-manager.php:513,
 #: framework/features/conditions-manager.php:550
@@ -4557,7 +4557,7 @@ msgstr "ID pagina"
 #: framework/features/conditions-manager.php:679
 #: static/js/options/ConditionsManager/PostIdPicker.js:76
 msgid "Custom Post Type ID"
-msgstr ""
+msgstr "ID Custom Post Type"
 
 #: framework/features/conditions-manager.php:689
 msgid "Taxonomy ID"
@@ -4565,7 +4565,7 @@ msgstr "ID tassonomia"
 
 #: framework/features/conditions-manager.php:684
 msgid "Post with Taxonomy ID"
-msgstr ""
+msgstr "Post con ID Tassonomia"
 
 #: framework/features/conditions-manager.php:699
 msgid "Other Pages"
@@ -4591,7 +4591,7 @@ msgstr "Pagina iniziale"
 
 #: framework/features/conditions-manager.php:786
 msgid "User Auth"
-msgstr ""
+msgstr "Auth Utente"
 
 #: framework/features/conditions-manager.php:790
 msgid "User Logged In"
@@ -4611,11 +4611,11 @@ msgstr "Ruoli utente"
 #: framework/premium/features/content-blocks/options/hook.php:24,
 #: framework/premium/features/content-blocks/options/popup.php:25
 msgid "Other"
-msgstr ""
+msgstr "Altro"
 
 #: framework/features/conditions-manager.php:810
 msgid "Post Author"
-msgstr ""
+msgstr "Autore Post"
 
 #: framework/features/conditions-manager.php:903
 msgid "Language"
@@ -4627,7 +4627,7 @@ msgstr ""
 
 #: framework/features/dynamic-css.php:46
 msgid "Dynamic CSS Output"
-msgstr ""
+msgstr "Output Css Dinamico"
 
 #: framework/features/dynamic-css.php:50
 msgid "The strategy of outputting the dynamic CSS. File - all the CSS code will be placed in a static file, otherwise it will be placed inline in head."
@@ -4817,7 +4817,7 @@ msgstr "Accetto"
 #: framework/premium/features/premium-header/items/language-switcher/options.php:380,
 #: framework/premium/features/premium-header/items/search-input/options.php:188
 msgid "Design"
-msgstr ""
+msgstr "Design"
 
 #: framework/extensions/cookies-consent/customizer.php:203,
 #: framework/extensions/cookies-consent/customizer.php:270,
@@ -4986,19 +4986,19 @@ msgstr "Colore di sfondo"
 
 #: framework/extensions/cookies-consent/customizer.php:98
 msgid "Maximum Width"
-msgstr ""
+msgstr "Larghezza Massima"
 
 #: framework/extensions/cookies-consent/customizer.php:119
 msgid "I accept the %sPrivacy Policy%s*"
-msgstr ""
+msgstr "Accetto la %sPrivacy Policy%s*"
 
 #: framework/extensions/cookies-consent/customizer.php:123
 msgid "This text will appear under each comment form and subscribe form."
-msgstr ""
+msgstr "Il testo apparirà sotto ogni form di commento ed iscrizione."
 
 #: framework/extensions/cookies-consent/helpers.php:79
 msgid "I accept the %sPrivacy Policy%s"
-msgstr ""
+msgstr "Accetto la %sPrivacy Policy%s"
 
 #: framework/extensions/cookies-consent/readme.php:1,
 #: framework/extensions/newsletter-subscribe/readme.php:1,
@@ -5018,15 +5018,15 @@ msgstr "Personalizza"
 
 #: framework/extensions/cookies-consent/readme.php:13
 msgid "Navigate to %s and customize the notification to meet your needs."
-msgstr ""
+msgstr "Naviga a  %s personalizza le notifiche per soddisfare i tuoi bisogni."
 
 #: framework/extensions/cookies-consent/readme.php:16
 msgid "Customizer ➝ Cookie Consent"
-msgstr ""
+msgstr "Customizer ➝ Cookie Consent"
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/widget.php:13
 msgid "Newsletter Subscribe"
-msgstr ""
+msgstr "Iscrizione Newsletter"
 
 #: framework/extensions/newsletter-subscribe/config.php:6
 msgid "Easily capture new leads for your newsletter with the help of a widget, shortcode or even a block inserted on your pages or posts."
@@ -5065,7 +5065,7 @@ msgstr "Titolo"
 #: framework/extensions/newsletter-subscribe/helpers.php:42,
 #: framework/extensions/newsletter-subscribe/helpers.php:96
 msgid "Newsletter Updates"
-msgstr ""
+msgstr "Aggiornamenti Newsletter"
 
 #: framework/extensions/newsletter-subscribe/customizer.php:27,
 #: framework/extensions/widgets/widgets/ct-posts/widget.php:14
@@ -5094,7 +5094,7 @@ msgstr ""
 #: framework/extensions/widgets/widgets/ct-posts/options.php:198,
 #: framework/premium/features/content-blocks/options/hook.php:289
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: framework/extensions/newsletter-subscribe/customizer.php:50,
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:54,
@@ -5103,13 +5103,13 @@ msgstr ""
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:371,
 #: framework/premium/features/content-blocks/options/archive.php:48
 msgid "Custom"
-msgstr ""
+msgstr "Personalizzato"
 
 #: framework/extensions/newsletter-subscribe/customizer.php:62,
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:64
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:194
 msgid "List ID"
-msgstr ""
+msgstr "Lista ID"
 
 #: framework/extensions/newsletter-subscribe/customizer.php:80,
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:76
@@ -5598,15 +5598,15 @@ msgstr ""
 
 #: framework/extensions/product-reviews/metabox.php:30
 msgid "Music Playlist"
-msgstr ""
+msgstr "Playlist Musicale"
 
 #: framework/extensions/product-reviews/metabox.php:31
 msgid "Music Recording"
-msgstr ""
+msgstr "Registrazione musica"
 
 #: framework/extensions/product-reviews/metabox.php:32
 msgid "Organization"
-msgstr ""
+msgstr "Organizzazione"
 
 #: framework/extensions/product-reviews/metabox.php:38
 msgid "More info about review entity and how to choose the right one can be found %shere%s."
@@ -5614,15 +5614,15 @@ msgstr ""
 
 #: framework/extensions/product-reviews/metabox.php:69
 msgid "Product Price"
-msgstr ""
+msgstr "Prezzo Prodotto"
 
 #: framework/extensions/product-reviews/metabox.php:76
 msgid "Product SKU"
-msgstr ""
+msgstr "SKU Prodotto"
 
 #: framework/extensions/product-reviews/metabox.php:83
 msgid "Product Brand"
-msgstr ""
+msgstr "Prodotto Brand"
 
 #: framework/extensions/product-reviews/metabox.php:96
 msgid "Gallery"
@@ -5630,7 +5630,7 @@ msgstr "Galleria"
 
 #: framework/extensions/product-reviews/metabox.php:107
 msgid "Affiliate Button Label"
-msgstr ""
+msgstr "Label Bottone Affiliazione"
 
 #: framework/extensions/product-reviews/metabox.php:109,
 #: framework/extensions/product-reviews/views/single-top.php:156
@@ -5639,11 +5639,11 @@ msgstr "Acquista ora"
 
 #: framework/extensions/product-reviews/metabox.php:114
 msgid "Affiliate Link"
-msgstr ""
+msgstr "Link Affiliazione"
 
 #: framework/extensions/product-reviews/metabox.php:120
 msgid "Open Link In New Tab"
-msgstr ""
+msgstr "Apri Link in una Nuovo Tab"
 
 #: framework/extensions/product-reviews/metabox.php:126
 msgid "Sponsored Attribute"
@@ -5651,7 +5651,7 @@ msgstr ""
 
 #: framework/extensions/product-reviews/metabox.php:148
 msgid "Read More Button Label"
-msgstr ""
+msgstr "Label bottome Read More"
 
 #: framework/extensions/product-reviews/metabox.php:150,
 #: framework/extensions/product-reviews/views/single-top.php:162
@@ -6078,7 +6078,7 @@ msgstr "Testo"
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:27,
 #: framework/extensions/widgets/widgets/ct-quote/options.php:34
 msgid "You can add here some arbitrary HTML code."
-msgstr ""
+msgstr "Puoi aggiungere del codice HTML."
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:114
 msgid "Container Type"
@@ -6094,7 +6094,7 @@ msgstr "Allineamento del contenuto"
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/widget.php:14
 msgid "Newsletter subscribe form"
-msgstr ""
+msgstr "Form iscrizione Newsletter"
 
 #: framework/extensions/product-reviews/views/single-top.php:238
 msgid "Specs"

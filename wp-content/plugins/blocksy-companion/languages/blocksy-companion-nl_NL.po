@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-27 16:10:14+0000\n"
+"PO-Revision-Date: 2023-05-28 17:53:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -513,8 +513,8 @@ msgstr ""
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:126
 msgid "%s min"
 msgid_plural "%s mins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s min"
+msgstr[1] "%s mins"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-helpers.php:38
 msgid "Wishlist icon"
@@ -630,7 +630,7 @@ msgstr ""
 #: framework/premium/static/js/typography/providers/plus-addons.js:23
 #: framework/premium/static/js/typography/providers/stackable.js:23
 msgid "%s Local Google Fonts"
-msgstr ""
+msgstr "%s Lokale Google Fonts"
 
 #: framework/premium/static/js/typography/providers/kadence.js:26
 #: framework/premium/static/js/typography/providers/plus-addons.js:27
@@ -641,7 +641,7 @@ msgstr ""
 #: framework/premium/static/js/typography/providers/kadence.js:31
 #: framework/premium/static/js/typography/providers/stackable.js:31
 msgid "%s Custom Fonts"
-msgstr ""
+msgstr "%s Aangepaste lettertypen"
 
 #: framework/premium/static/js/typography/providers/kadence.js:59
 msgid "Normal"
@@ -653,7 +653,7 @@ msgstr ""
 
 #: framework/premium/static/js/typography/providers/plus-addons.js:31
 msgid "%s Custom"
-msgstr ""
+msgstr "%s Custom"
 
 #: framework/premium/static/js/typography/providers/plus-addons.js:35
 msgid "%s System"
@@ -2949,11 +2949,11 @@ msgstr ""
 
 #: framework/extensions/widgets/widgets/ct-posts/view.php:220
 msgid "1 Comment"
-msgstr ""
+msgstr "1 Reactie"
 
 #: framework/extensions/widgets/widgets/ct-posts/view.php:220
 msgid "% Comments"
-msgstr ""
+msgstr "% Reacties"
 
 #: framework/extensions/widgets/widgets/ct-quote/options.php:18,
 #: framework/extensions/widgets/widgets/ct-quote/view.php:12,
@@ -3199,15 +3199,15 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:494
 msgid "%s Field"
-msgstr ""
+msgstr "%s Veld"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:894
 msgid "%s %s Font"
-msgstr ""
+msgstr "%s %s Lettertype"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:905
 msgid "%s %s Color"
-msgstr ""
+msgstr "%s %s Kleur"
 
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:9,
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:66
@@ -3216,7 +3216,7 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/includes/filtering.php:286
 msgid "All"
-msgstr ""
+msgstr "Alles"
 
 #: framework/premium/extensions/post-types-extra/includes/taxonomies-options.php:161
 msgid "Featured Image"
@@ -3234,7 +3234,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-helpers.php:46,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-helpers.php:54
 msgid "Add to wishlist"
-msgstr ""
+msgstr "Toevoegen aan verlanglijstje"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:9
 msgid "Select a page"
@@ -3314,7 +3314,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:35
 msgid "Add to cart"
-msgstr ""
+msgstr "Toevoegen aan winkelwagen"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:128,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:152
@@ -4038,7 +4038,7 @@ msgstr ""
 
 #: framework/premium/extensions/sidebars/static/js/SettingsManager.js:64
 msgid "%s - Sidebar Display Conditions"
-msgstr ""
+msgstr "%s - Voorwaarden voor zijbalkweergave"
 
 #: framework/premium/extensions/sidebars/static/js/SettingsManager.js:72
 msgid "Add one or more conditions in order to display your sidebar."
@@ -4468,11 +4468,11 @@ msgstr ""
 
 #: framework/features/conditions-manager.php:641
 msgid "%s Archive"
-msgstr ""
+msgstr "%s Archief"
 
 #: framework/features/conditions-manager.php:654
 msgid "%s %s Taxonomy"
-msgstr ""
+msgstr "%s %s Taxonomie"
 
 #: framework/features/conditions-manager.php:496
 msgid "Entire Website"

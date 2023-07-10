@@ -134,7 +134,7 @@ const ConditionsManager = ({ value, onChange, filter = 'all' }) => {
 									  )
 									: allRules.filter(
 											({ key }) =>
-												key.indexOf('user_') === -1
+												key.indexOf('user_') !== 0
 									  ),
 							search: true,
 						}}
@@ -316,7 +316,9 @@ const ConditionsManager = ({ value, onChange, filter = 'all' }) => {
 								],
 								search: true,
 							}}
-							value={(condition.payload || {}).user_id || 'all_users'}
+							value={
+								(condition.payload || {}).user_id || 'all_users'
+							}
 							onChange={(user_id) => {
 								onChange(
 									value.map((r, i) => ({

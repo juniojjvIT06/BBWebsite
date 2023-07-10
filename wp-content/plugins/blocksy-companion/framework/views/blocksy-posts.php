@@ -16,7 +16,8 @@ $query_args = [
 	'post_type' => explode(',', $args['post_type']),
 	'orderby' => $args['orderby'],
 	'posts_per_page' => $args['limit'],
-	'ignore_sticky_posts' => $args['ignore_sticky_posts'] === 'yes'
+	'ignore_sticky_posts' => $args['ignore_sticky_posts'] === 'yes',
+	'post_status' => 'publish'
 ];
 
 if (! empty($args['meta_value'])) {
@@ -185,6 +186,8 @@ if ($args['view'] === 'slider') {
 
 	if (
 		$args['filtering']
+		&&
+		$args['filtering'] === 'yes'
 		&&
 		function_exists('blc_cpt_extra_filtering_output')
 	) {

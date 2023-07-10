@@ -17,6 +17,11 @@ class ConditionsManager {
 			return false;
 		}
 
+		// Check if it looks like a normal rules array. If it doesn't -- bail out.
+		if (! isset($rules[0]) || ! isset($rules[0]['rule'])) {
+			return false;
+		}
+
 		$all_includes = array_filter($rules, function ($el) {
 			return $el['type'] === 'include';
 		});
@@ -849,6 +854,11 @@ class ConditionsManager {
 	}
 
 	public function humanize_conditions($conditions) {
+		// Check if it looks like a normal rules array. If it doesn't -- bail out.
+		if (! isset($conditions[0]) || ! isset($conditions[0]['rule'])) {
+			return [];
+		}
+
 		$result = [];
 
 		foreach ($conditions as $condition) {
@@ -890,9 +900,11 @@ class ConditionsManager {
 					$condition['payload']['taxonomy_id']
 				);
 
-				$to_append .= ' (<a href="' . get_edit_term_link(
-					$condition['payload']['taxonomy_id']
-				) . '" target="_blank">' . $tax->name . '</a>)';
+				if ($tax) {
+					$to_append .= ' (<a href="' . get_edit_term_link(
+						$condition['payload']['taxonomy_id']
+					) . '" target="_blank">' . $tax->name . '</a>)';
+				}
 			}
 
 			if ($condition['rule'] === 'current_language') {

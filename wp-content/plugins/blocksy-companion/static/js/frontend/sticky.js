@@ -179,7 +179,7 @@ const compute = () => {
 	const shouldSetHeight =
 		!containerInitialHeight || forcedHeightSetForStickyContainer
 
-	if (!containerInitialHeight) {
+	if (!containerInitialHeight || forcedHeightSetForStickyContainer) {
 		cachedContainerInitialHeight[currentScreenWithTablet] = [
 			...stickyContainer.querySelectorAll('[data-row]'),
 		].reduce((res, row) => {

@@ -139,8 +139,13 @@
 		a {
 			color: inherit;
 
-			&:not(:hover) {
-				text-decoration: underline;
+			&.showlogin {
+				font-size: inherit;
+				font-weight: inherit;
+				padding: 0;
+				border: none;
+				min-height: initial;
+				background: transparent;
 			}
 		}
 	}
@@ -148,6 +153,14 @@
 	.ct-form-notification-error {
 		color: rgba(255, 255, 255, 0.95);
 		background: rgba(218, 0, 28, 0.7);
+	}
+
+	[class*='ct-form-notification'],
+	.woocommerce-privacy-policy-text {
+
+		a:not(:hover) {
+			text-decoration: underline;
+		}
 	}
 
 	// shake animation

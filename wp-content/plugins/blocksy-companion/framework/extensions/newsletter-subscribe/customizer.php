@@ -172,7 +172,7 @@ $options = [
 				],
 
 				'newsletter_subscribe_content' => [
-					'label' => __( 'Description Color', 'blocksy-companion' ),
+					'label' => __( 'Text Color', 'blocksy-companion' ),
 					'type'  => 'ct-color-picker',
 					'design' => 'inline',
 					'setting' => [ 'transport' => 'postMessage' ],

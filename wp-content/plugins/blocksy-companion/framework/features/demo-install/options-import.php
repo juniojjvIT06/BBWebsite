@@ -122,6 +122,7 @@ class DemoInstallOptionsInstaller {
 
 		foreach ($options['mods'] as $key => $val) {
 			if ($key === 'sidebars_widgets') continue;
+			if ($key === 'custom_css_post_id') continue;
 			do_action('customize_save_' . $key, $wp_customize);
 			set_theme_mod($key, $val);
 		}
@@ -194,6 +195,8 @@ class DemoInstallOptionsInstaller {
 				! empty($default_post_id)
 				&&
 				isset($options['elementor_active_kit_settings'])
+				&&
+				! empty($options['elementor_active_kit_settings'])
 			) {
 				update_post_meta(
 					$default_post_id,

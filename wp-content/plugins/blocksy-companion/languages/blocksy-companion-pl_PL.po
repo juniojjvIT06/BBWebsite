@@ -2636,7 +2636,7 @@ msgstr "O mnie"
 #: framework/extensions/widgets/widgets/ct-advertisement/widget.php:13,
 #: framework/extensions/widgets/widgets/ct-advertisement/widget.php:14
 msgid "Advertisement"
-msgstr "Ogłoszenie"
+msgstr "Og��oszenie"
 
 #: framework/extensions/widgets/widgets/ct-advertisement/options.php:31
 msgid "Code"

@@ -27,6 +27,16 @@ class DemoInstallContentInstaller {
 	}
 
 	public function import() {
+		if (class_exists('\Astra_Sites')) {
+			$astra_sites_instance = \Astra_Sites::get_instance();
+
+			remove_filter(
+				'wp_import_post_data_processed',
+				[$astra_sites_instance, 'wp_slash_after_xml_import'],
+				99, 2
+			);
+		}
+
 		if ($this->has_streaming) {
 			Plugin::instance()->demo->start_streaming();
 

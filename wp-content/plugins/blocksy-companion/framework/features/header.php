@@ -23,17 +23,7 @@ class HeaderAdditions {
 			50
 		);
 
-		add_action('plugins_loaded', function () {
-			if (function_exists('dokan')) {
-				add_action('wp_enqueue_scripts', function () {
-					wp_enqueue_script('dokan-form-validate');
-					wp_enqueue_script('dokan-vendor-registration');
-				});
-			}
-		});
-
 		add_filter('blocksy:header:selective_refresh', function ($selective_refresh) {
-
 			$selective_refresh[] = [
 				'id' => 'header_placements_item:account',
 				'fallback_refresh' => false,

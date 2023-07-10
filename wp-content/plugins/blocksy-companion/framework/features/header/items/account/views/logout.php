@@ -1,12 +1,14 @@
 <?php
 
-$login_label = blocksy_translate_dynamic(
-	blocksy_default_akg(
-		'login_label',
-		$atts,
-		__('Login', 'blocksy-companion')
-	),
-	'header:' . $section_id . ':' . $item_id . ':login_label'
+$login_label = do_shortcode(
+	blocksy_translate_dynamic(
+		blocksy_default_akg(
+			'login_label',
+			$atts,
+			__('Login', 'blocksy-companion')
+		),
+		'header:' . $section_id . ':' . $item_id . ':login_label'
+	)
 );
 
 $loggedout_account_label_visibility = blocksy_akg(
@@ -24,7 +26,7 @@ $link = '#account-modal';
 $login_account_action = blocksy_akg('login_account_action', $atts, 'modal');
 
 if ($login_account_action === 'custom') {
-	$link = blocksy_akg('loggedout_account_custom_page', $atts, '');
+	$link = do_shortcode(blocksy_akg('loggedout_account_custom_page', $atts, ''));
 }
 
 if ($login_account_action === 'woocommerce_account') {

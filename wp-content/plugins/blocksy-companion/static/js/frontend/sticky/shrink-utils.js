@@ -52,6 +52,18 @@ export const getRowInitialMinHeight = (el) => {
 		}
 	}
 
+	if (el.querySelector('[data-items] > [data-id*="widget-area"]')) {
+		const widgetAreaComp = getComputedStyle(
+			el.querySelector('[data-items] > [data-id*="widget-area"]')
+		)
+
+		let widgetAreaHeight = parseFloat(widgetAreaComp.height)
+
+		if (widgetAreaHeight > rowHeight) {
+			rowHeight = widgetAreaHeight
+		}
+	}
+
 	return rowHeight + borderHeight
 }
 

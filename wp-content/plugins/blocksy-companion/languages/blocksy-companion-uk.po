@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-27 09:39:52+0000\n"
+"PO-Revision-Date: 2023-01-23 19:11:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -785,31 +785,31 @@ msgstr "Глобальний заголовок"
 
 #: framework/premium/static/js/header/CreateHeader.js:173
 msgid "Create New Header"
-msgstr ""
+msgstr "Створити нову шапку"
 
 #: framework/premium/static/js/header/CreateHeader.js:50
 msgid "Create new header"
-msgstr ""
+msgstr "Створити нову шапку"
 
 #: framework/premium/static/js/header/CreateHeader.js:53
 msgid "Create a new header and assign it to different pages or posts based on your conditions."
-msgstr ""
+msgstr "Створити нову шапку та застосувати її до різних сторінок чи постів, беручі за основу Ваші умови"
 
 #: framework/premium/static/js/header/CreateHeader.js:71
 msgid "Header name"
-msgstr ""
+msgstr "Им'я шапки"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:252
 msgid "Yes, continue"
-msgstr ""
+msgstr "Так, продовижити"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:164
 msgid "Use code editor"
-msgstr ""
+msgstr "Використовуй редактор кода"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:167
 msgid "Exit code editor"
-msgstr ""
+msgstr "Вийти з редактору кода"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:179
 msgid "Heads up!"
@@ -817,15 +817,15 @@ msgstr ""
 
 #: framework/premium/static/js/hooks/CodeEditor.js:181
 msgid "Enabling & disabling the code editor will erase everything from your post editor and this action is irreversible."
-msgstr ""
+msgstr "Включення та відключення редактору кода знищить все у вашому редакторі постів та ці дії незворотні"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:188
 msgid "Are you sure you want to continue?"
-msgstr ""
+msgstr "Ви впевнені, що бажаєте продовжити?"
 
 #: framework/premium/static/js/hooks/CreateHook.js:207
 msgid "Create Content Block"
-msgstr ""
+msgstr "Створити блок з контентом"
 
 #: framework/premium/static/js/hooks/CreateHook.js:36
 msgid "Please select the type of your content block and place it in the location you want based on your display and user conditions."
@@ -1127,7 +1127,7 @@ msgstr "Стартовий сайт успішно імпортовано"
 
 #: static/js/screens/DemoInstall/Installer/InstallCompleted.js:25
 msgid "Now you can view your website or start customizing it"
-msgstr "Тепер ви можете переглянути свій веб-сайт або почати його налаштуванн��"
+msgstr "Тепер ви можете переглянути свій веб-сайт або почати його налаштування"
 
 #: static/js/screens/DemoInstall/Installer/InstallCompleted.js:33
 msgid "Customize"
@@ -1399,7 +1399,7 @@ msgstr ""
 #: framework/premium/extensions/mega-menu/options.php:36,
 #: framework/premium/extensions/mega-menu/options.php:57
 msgid "Full Width"
-msgstr ""
+msgstr "Повна ширина"
 
 #: framework/premium/extensions/mega-menu/options.php:37,
 #: framework/premium/features/content-blocks/options/archive.php:59
@@ -1650,12 +1650,12 @@ msgstr ""
 #: framework/premium/extensions/shortcuts/customizer.php:361,
 #: framework/premium/extensions/shortcuts/views/bar.php:47
 msgid "Cart"
-msgstr ""
+msgstr "Кошик"
 
 #: framework/premium/extensions/shortcuts/customizer.php:394,
 #: framework/premium/extensions/shortcuts/customizer.php:417
 msgid "Shop"
-msgstr ""
+msgstr "Крамниця"
 
 #: framework/premium/extensions/shortcuts/customizer.php:450,
 #: framework/premium/extensions/shortcuts/customizer.php:473,
@@ -1665,7 +1665,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:100,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:106
 msgid "Wishlist"
-msgstr ""
+msgstr "Список бажань"
 
 #: framework/premium/extensions/shortcuts/customizer.php:557
 msgid "Shortcuts"
@@ -1706,11 +1706,11 @@ msgstr "Розмір іконки"
 
 #: framework/premium/extensions/shortcuts/customizer.php:682
 msgid "Container Height"
-msgstr ""
+msgstr "Висота контейнера"
 
 #: framework/premium/extensions/shortcuts/customizer.php:697
 msgid "Container Max Width"
-msgstr ""
+msgstr "Максимальна ширина контейнера"
 
 #: framework/premium/extensions/shortcuts/customizer.php:721
 msgid "Scroll Interaction"
@@ -1734,7 +1734,7 @@ msgstr ""
 #: framework/premium/features/premium-header/items/language-switcher/options.php:192,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:385
 msgid "Font"
-msgstr ""
+msgstr "Шрифт"
 
 #: framework/premium/extensions/shortcuts/customizer.php:826,
 #: framework/premium/features/premium-header/items/contacts/options.php:590,
@@ -1742,7 +1742,7 @@ msgstr ""
 #: framework/premium/features/premium-header/items/contacts/options.php:650,
 #: framework/premium/features/premium-header/items/contacts/options.php:680
 msgid "Icons Color"
-msgstr ""
+msgstr "Колір іконки"
 
 #: framework/premium/extensions/shortcuts/customizer.php:865
 msgid "Cart Badge Color"
@@ -1750,14 +1750,14 @@ msgstr ""
 
 #: framework/premium/extensions/shortcuts/customizer.php:920
 msgid "Items Divider Height"
-msgstr ""
+msgstr "Висота розділювача елементів"
 
 #: framework/premium/extensions/shortcuts/customizer.php:934,
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:123,
 #: framework/premium/features/content-blocks/options/popup.php:387,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:455
 msgid "Shadow"
-msgstr ""
+msgstr "Тінь"
 
 #: framework/premium/extensions/sidebars/config.php:6
 msgid "Create unlimited personalized sets of widget areas and display them on any page or post using our conditional logic functionality."
@@ -1765,7 +1765,7 @@ msgstr ""
 
 #: framework/premium/extensions/sidebars/config.php:10
 msgid "Create New Sidebar"
-msgstr ""
+msgstr "Створити новий сайдбар"
 
 #: framework/premium/extensions/sidebars/form.php:3
 #: framework/premium/extensions/sidebars/static/js/main.js:42
@@ -1837,7 +1837,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:739
 msgid "Available Filters"
-msgstr ""
+msgstr "Доступні фільтри"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:833
 msgid "Quick view title before"
@@ -1888,11 +1888,11 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/helpers.php:106
 msgid "Go to product page"
-msgstr ""
+msgstr "Перейти на сторінку товара"
 
 #: framework/premium/extensions/woocommerce-extra/helpers.php:191
 msgid "Filter"
-msgstr ""
+msgstr "Фільтр"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:3
 msgid "Off Canvas Filter"

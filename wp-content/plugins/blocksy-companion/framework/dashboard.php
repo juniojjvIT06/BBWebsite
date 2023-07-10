@@ -4,16 +4,64 @@ namespace Blocksy;
 
 class Dashboard {
 	public function __construct() {
+		add_filter(
+			'blocksy:dashboard:redirect-after-activation',
+			function ($url) {
+				return add_query_arg(
+					'page',
+					'ct-dashboard',
+					admin_url('admin.php')
+				);
+			}
+		);
+
+		add_filter(
+			'blocksy_add_menu_page',
+			function ($res, $options) {
+				add_menu_page(
+					$options['title'],
+					$options['menu-title'],
+					$options['permision'],
+					$options['top-level-handle'],
+					$options['callback'],
+					$options['icon-url'],
+					2
+				);
+
+				add_submenu_page(
+					$options['top-level-handle'],
+					$options['title'],
+					__('Dashboard', 'blocksy-companion'),
+					$options['permision'],
+					$options['top-level-handle']
+				);
+
+				return true;
+			},
+			10, 2
+		);
+
 		add_action(
 			'admin_menu',
 			[$this, 'setup_framework_page'],
 			5
 		);
 
+		add_filter(
+			'blocksy:dashboard:redirect-after-activation',
+			function ($url) {
+				return add_query_arg(
+					'page',
+					'ct-dashboard',
+					admin_url('admin.php')
+				);
+			}
+		);
+
 		add_action(
 			'admin_menu',
 			function () {
-				if (function_exists('blocksy_get_wp_parent_theme')) {
+				if (Plugin::instance()->check_if_blocksy_is_activated()) {
 					return;
 				}
 
@@ -38,7 +86,7 @@ class Dashboard {
 		);
 
 		add_action('admin_body_class', function ($class) {
-			if (! function_exists('blocksy_get_wp_parent_theme')) {
+			if (! Plugin::instance()->check_if_blocksy_is_activated()) {
 				return $class;
 			}
 
@@ -223,7 +271,7 @@ class Dashboard {
 			'ct-options-scripts'
 		]);
 
-		if (function_exists('blocksy_get_wp_parent_theme')) {
+		if (Plugin::instance()->check_if_blocksy_is_activated()) {
 			wp_enqueue_script(
 				'blocksy-dashboard-scripts',
 				BLOCKSY_URL . 'static/bundle/dashboard.js',
@@ -249,15 +297,31 @@ class Dashboard {
 			);
 
 			$slug = 'blocksy';
+
+			$localize_data = [
+				'themeIsInstalled' => (
+					!! wp_get_theme($slug)
+					&&
+					! wp_get_theme($slug)->errors()
+				),
+				'activate'=> current_user_can('switch_themes') ? wp_nonce_url(admin_url('themes.php?action=activate&amp;stylesheet=' . $slug), 'switch-theme_' . $slug) : null
+			];
+
+			$blocksy_data = Plugin::instance()->is_blocksy_data;
+
+			if ($blocksy_data && $blocksy_data['is_correct_theme']) {
+				$localize_data['theme_version_mismatch'] = true;
+				$localize_data['run_updates'] = self_admin_url('update-core.php');
+			}
+
 			wp_localize_script(
 				'blocksy-dashboard-scripts',
 				'ctDashboardLocalizations',
-				[
-					'activate'=> current_user_can('switch_themes') ? wp_nonce_url(admin_url('themes.php?action=activate&amp;stylesheet=' . $slug), 'switch-theme_' . $slug) : null,
-				]
+				$localize_data
 			);
-		}
 
+			wp_dequeue_style('ct-dashboard-styles');
+		}
 
 		wp_enqueue_style(
 			'blocksy-dashboard-styles',
@@ -268,10 +332,6 @@ class Dashboard {
 	}
 
 	public function setup_framework_page() {
-		if (function_exists('blocksy_get_wp_parent_theme')) {
-			return;
-		}
-
 		if (! current_user_can('activate_plugins')) {
 			return;
 		}
@@ -286,11 +346,10 @@ class Dashboard {
 			'callback' => [$this, 'welcome_page_template'],
 			'icon-url' => apply_filters(
 				'blocksy:dashboard:icon-url',
-				BLOCKSY_URL . 'static/img/navigation.svg'
+				'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE4IDE4IiB2aWV3Qm94PSIwIDAgMTggMTgiPjxwYXRoIGQ9Ik05IDBjNSAwIDkgNCA5IDlzLTQgOS05IDktOS00LTktOSA0LTkgOS05em0yLjQgOS4yaC0uMmwtNC45IDQuNnYuMUgxMWMuMSAwIC4xIDAgLjItLjFsMi4yLTJjLjItLjIuMy0uNiAwLS44bC0yLTEuOHptMC01aC0uMkw1LjggOS4zbC0uMS4xdjMuOHMuMS4xLjEgMGw3LjEtNi42Yy4zLS4yLjMtLjggMC0xbC0xLjUtMS40em0tMS0uM0g1LjhjLS4xIDAtLjEgMC0uMS4xdjQuMnMuMS4xLjEgMGw0LjYtNC4zYy4xLjEuMSAwIDAgMHoiLz48L3N2Zz4='
 			),
 			'position' => 2,
 		];
-
 
 		add_menu_page(
 			$options['title'],

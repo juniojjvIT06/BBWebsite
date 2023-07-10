@@ -26,13 +26,13 @@ if (! $forgot_password_inline) {
 
 	<p>
 		<label for="user_login"><?php echo __('Username or Email Address', 'blocksy-companion') ?></label>
-		<input type="text" name="log" id="user_login" class="input" value="" size="20">
+		<input type="text" name="log" id="user_login" class="input" value="" size="20" autocomplete="username" autocapitalize="off">
 	</p>
 
 	<p>
 		<label for="user_pass"><?php echo __('Password', 'blocksy-companion') ?></label>
 		<span class="account-password-input">
-			<input type="password" name="pwd" id="user_pass" class="input" value="" size="20">
+			<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" autocomplete="current-password" spellcheck="false">
 			<span class="show-password-input"></span>
 		</span>
 	</p>
@@ -43,7 +43,7 @@ if (! $forgot_password_inline) {
 			<label for="rememberme"><?php echo __('Remember Me', 'blocksy-companion') ?></label>
 		</span>
 
-		<a href="<?php echo wp_lostpassword_url() ?>" class="<?php echo $forgot_pass_class ?>">
+		<a href="#" class="<?php echo $forgot_pass_class ?>">
 			<?php echo __('Forgot Password?', 'blocksy-companion') ?>
 		</a>
 	</p>

@@ -82,6 +82,40 @@ class BlocksyExtensionCookiesConsent {
 			'BlocksyExtensionCookiesConsent::add_global_styles',
 			10, 3
 		);
+
+		add_action(
+			'pre_comment_on_post',
+			function ($post_id) {
+				$data = wp_unslash($_POST);
+
+				if (! isset($data['comment_post_ID'])) {
+					return;
+				}
+
+				if (
+					! isset($data['ct_has_gdprconfirm'])
+					||
+					$data['ct_has_gdprconfirm'] !== 'yes'
+				) {
+					return;
+				}
+
+				if (
+					! isset($data['gdprconfirm'])
+					||
+					$data['gdprconfirm'] !== 'on'
+				) {
+					wp_die(
+						'<p>' . __('Please accept the Privacy Policy in order to comment.', 'blocksy-companion') . '</p>',
+						__('Comment Submission Failure', 'blocksy-companion'),
+						array(
+							'response' => $data,
+							'back_link' => true,
+						)
+					);
+				}
+			}
+		);
 	}
 
 	static public function add_global_styles($args) {

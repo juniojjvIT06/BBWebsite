@@ -4,6 +4,21 @@ namespace Blocksy;
 
 class ThemeIntegration {
 	public function __construct() {
+		add_action('wp_enqueue_scripts', function () {
+			if (! function_exists('get_plugin_data')){
+				require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+			}
+
+			$data = get_plugin_data(BLOCKSY__FILE__);
+
+			if (is_admin()) return;
+
+			wp_register_script(
+				'blocksy-zxcvbn',
+				includes_url('/js/zxcvbn.min.js')
+			);
+		});
+
 		add_filter('blocksy:frontend:dynamic-js-chunks', function ($chunks) {
 			$render = new \Blocksy_Header_Builder_Render();
 
@@ -54,6 +69,33 @@ class ThemeIntegration {
 								'mismatch' => _x( 'Mismatch', 'password mismatch' ),
 							]
 						]
+					];
+				}
+
+				if (function_exists('dokan')) {
+					$deps[] = 'dokan-form-validate';
+					$deps[] = 'dokan-vendor-registration';
+
+					$global_data[] = [
+						'var' => 'DokanValidateMsg',
+						'data' => apply_filters('DokanValidateMsg_args', [
+							'required'        => __( 'This field is required', 'dokan-lite' ),
+							'remote'          => __( 'Please fix this field.', 'dokan-lite' ),
+							'email'           => __( 'Please enter a valid email address.', 'dokan-lite' ),
+							'url'             => __( 'Please enter a valid URL.', 'dokan-lite' ),
+							'date'            => __( 'Please enter a valid date.', 'dokan-lite' ),
+							'dateISO'         => __( 'Please enter a valid date (ISO).', 'dokan-lite' ),
+							'number'          => __( 'Please enter a valid number.', 'dokan-lite' ),
+							'digits'          => __( 'Please enter only digits.', 'dokan-lite' ),
+							'creditcard'      => __( 'Please enter a valid credit card number.', 'dokan-lite' ),
+							'equalTo'         => __( 'Please enter the same value again.', 'dokan-lite' ),
+							'maxlength_msg'   => __( 'Please enter no more than {0} characters.', 'dokan-lite' ),
+							'minlength_msg'   => __( 'Please enter at least {0} characters.', 'dokan-lite' ),
+							'rangelength_msg' => __( 'Please enter a value between {0} and {1} characters long.', 'dokan-lite' ),
+							'range_msg'       => __( 'Please enter a value between {0} and {1}.', 'dokan-lite' ),
+							'max_msg'         => __( 'Please enter a value less than or equal to {0}.', 'dokan-lite' ),
+							'min_msg'         => __( 'Please enter a value greater than or equal to {0}.', 'dokan-lite' ),
+						])
 					];
 				}
 
@@ -216,19 +258,14 @@ class ThemeIntegration {
 				$local_terms = array_map(function ($tax) {
 					return [
 						'id' => $tax->term_id,
-						'name' => $tax->name
+						'name' => $tax->name,
+						'group' => get_taxonomy($tax->taxonomy)->label
 					];
 				}, get_terms(['taxonomy' => $taxonomy, 'lang' => '']));
 
 				if (empty($local_terms)) {
 					continue;
 				}
-
-				$terms[] = [
-					'id' => $taxonomy,
-					'name' => $taxonomy,
-					'group' => get_taxonomy($taxonomy)->label
-				];
 
 				$terms = array_merge($terms, $local_terms);
 			}
@@ -324,35 +361,6 @@ class ThemeIntegration {
 			]);
 		});
 
-		add_filter(
-			'blocksy:dashboard:redirect-after-activation',
-			function ($url) {
-				return add_query_arg(
-					'page',
-					'ct-dashboard',
-					admin_url('admin.php')
-				);
-			}
-		);
-
-		add_filter(
-			'blocksy_add_menu_page',
-			function ($res, $options) {
-				add_menu_page(
-					$options['title'],
-					$options['menu-title'],
-					$options['permision'],
-					$options['top-level-handle'],
-					$options['callback'],
-					$options['icon-url'],
-					2
-				);
-
-				return true;
-			},
-			10, 2
-		);
-
 		add_action('rest_api_init', function () {
 			return;
 
@@ -382,6 +390,7 @@ class ThemeIntegration {
 				$fields['vkontakte'] = __( 'VKontakte', 'blocksy-companion' );
 				$fields['odnoklassniki'] = __( 'Odnoklassniki', 'blocksy-companion' );
 				$fields['tiktok'] = __( 'TikTok', 'blocksy-companion' );
+				$fields['mastodon'] = __( 'Mastodon', 'blocksy-companion' );
 
 				return $fields;
 			}
@@ -416,11 +425,15 @@ class ThemeIntegration {
 				$default_height = 100;
 				$default_width = 100;
 
-				$dimensions = $this->svg_dimensions(get_attached_file($attachment_id));
+				$maybe_file = get_attached_file($attachment_id);
 
-				if ($dimensions) {
-					$default_height = $dimensions['height'];
-					$default_width = $dimensions['width'];
+				if ($maybe_file) {
+					$dimensions = $this->svg_dimensions($maybe_file);
+
+					if ($dimensions) {
+						$default_height = $dimensions['height'];
+						$default_width = $dimensions['width'];
+					}
 				}
 
 				$image[2] = $default_height;

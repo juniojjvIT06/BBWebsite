@@ -18,16 +18,19 @@ if ($account_link === 'dashboard') {
 	$link = admin_url();
 }
 
-if ($account_link === 'logout') {
-	$link = wp_logout_url(blocksy_current_url());
-}
-
-if ($account_link === 'custom') {
-	$link = blocksy_akg('account_custom_page', $atts, '');
-}
 
 if ($account_link === 'woocommerce_account' && class_exists('WooCommerce')) {
 	$link = get_permalink(get_option('woocommerce_myaccount_page_id'));
+}
+
+if ($account_link === 'custom') {
+	$link = do_shortcode(blocksy_akg('account_custom_page', $atts, ''));
+}
+
+$link = apply_filters('wpml_permalink', $link);
+
+if ($account_link === 'logout') {
+	$link = wp_logout_url(blocksy_current_url());
 }
 
 // Media
@@ -65,7 +68,7 @@ if ($loggedin_media === 'icon') {
 
 	if (function_exists('blc_get_icon')) {
 		$icon_source = blocksy_default_akg('loggedin_icon_source', $atts, 'default');
-		
+
 		if ( $icon_source === 'custom' ) {
 			$media_html = blc_get_icon([
 				'icon_descriptor' => blocksy_akg(
@@ -77,12 +80,23 @@ if ($loggedin_media === 'icon') {
 				'icon_class' => 'ct-icon'
 			]);
 		}
-	
+
 	}
 }
 
 // Label
 $loggedin_label = blocksy_akg('loggedin_label', $atts, __('My Account', 'blocksy-companion'));
+
+$loggedin_label = do_shortcode(
+	blocksy_translate_dynamic(
+		blocksy_default_akg(
+			'loggedin_label',
+			$atts,
+			__('My Account', 'blocksy-companion')
+		),
+		'header:' . $section_id . ':' . $item_id . ':loggedin_label'
+	)
+);
 
 if (blocksy_akg('loggedin_text', $atts, 'label') === 'username') {
 	$user = wp_get_current_user();
@@ -99,7 +113,7 @@ if (! empty($media_html)) {
 	$attr['data-label'] = $loggedin_label_position[$device];
 }
 
-$attr['href'] = apply_filters('wpml_permalink', $link);
+$attr['href'] = $link;
 $attr['aria-label'] = $loggedin_label;
 
 echo '<a ' . blocksy_attr_to_html($attr) . '>';
